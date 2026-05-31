@@ -1,0 +1,1915 @@
+<!DOCTYPE html>
+<!-- saved from url=(0066)https://www.endalia.com/wp-content/uploads/landingcartarrhh-4.html -->
+<html lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Día de los Recursos Humanos · Endalia</title>
+<link rel="preconnect" href="https://fonts.googleapis.com/">
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+<link href="./Día de los Recursos Humanos · Endalia_files/css2" rel="stylesheet">
+<style>
+  :root {
+    --endalia-blue: #235CFB;
+    --endalia-blue-deep: #143EB3;
+    --endalia-blue-night: #092366;
+    --endalia-blue-sky: #6E91FC;
+    --endalia-green: #87E697;
+    --endalia-green-deep: #2EBE6A;
+    --endalia-yellow: #FFCC00;
+    --endalia-fucsia: #FF0066;
+    --endalia-white: #FFFFFF;
+    --endalia-cream: #F6F4EF;
+    --endalia-ink: #0D1B3D;
+  }
+  /* All styles are scoped under #endalia-rrhh-app so they never leak
+     into the host (endalia.com) page styles when embedded. */
+  #endalia-rrhh-app *, #endalia-rrhh-app *::before, #endalia-rrhh-app *::after { box-sizing: border-box; }
+
+  /* ---------- DEFENSIVE RESET ----------
+     Overrides anything the host WordPress theme may inject onto our
+     paragraphs, headings, links, em, strong, etc. !important is used
+     intentionally here — the host tries to recolor and reflow text. */
+  #endalia-rrhh-app, #endalia-rrhh-app * {
+    color: inherit;
+    text-decoration: none;
+    text-shadow: none;
+    background-image: none;
+  }
+  #endalia-rrhh-app p,
+  #endalia-rrhh-app h1,
+  #endalia-rrhh-app h2,
+  #endalia-rrhh-app h3,
+  #endalia-rrhh-app h4 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', 'Roboto', system-ui, sans-serif !important;
+  }
+  #endalia-rrhh-app em,
+  #endalia-rrhh-app strong,
+  #endalia-rrhh-app i,
+  #endalia-rrhh-app b {
+    color: inherit !important;
+    background: transparent !important;
+    text-decoration: none !important;
+  }
+  #endalia-rrhh-app a { color: inherit; text-decoration: none; }
+  #endalia-rrhh-app .stage,
+  #endalia-rrhh-app .stage * { color: inherit; }
+  /* ---------- /DEFENSIVE RESET ---------- */
+
+  #endalia-rrhh-app {
+    font-family: 'Roboto', system-ui, sans-serif;
+    background: var(--endalia-blue);
+    color: var(--endalia-white);
+    position: relative;
+    overflow: hidden;
+    isolation: isolate;
+  }
+  #endalia-rrhh-app::before {
+    /* dot grid texture */
+    content: "";
+    position: absolute; inset: 0;
+    background-image: radial-gradient(rgba(255,255,255,0.07) 1.2px, transparent 1.2px);
+    background-size: 28px 28px;
+    pointer-events: none;
+    z-index: 0;
+  }
+  #endalia-rrhh-app::after {
+    /* radial vignette glow */
+    content: "";
+    position: absolute; inset: -10%;
+    background:
+      radial-gradient(60% 50% at 15% 0%, rgba(135,230,151,0.18), transparent 70%),
+      radial-gradient(50% 40% at 95% 15%, rgba(255,0,102,0.15), transparent 70%),
+      radial-gradient(60% 60% at 80% 90%, rgba(255,204,0,0.10), transparent 70%);
+    pointer-events: none;
+    z-index: 0;
+  }
+  #endalia-rrhh-app .stage { position: relative; z-index: 1; }
+  #endalia-rrhh-app button { font-family: inherit; cursor: pointer; }
+  #endalia-rrhh-app input,
+  #endalia-rrhh-app textarea,
+  #endalia-rrhh-app select { font-family: inherit; }
+
+  /* =========== HERO =========== */
+  #endalia-rrhh-app .hero {
+    max-width: 1440px; margin: 0 auto;
+    padding: 72px 40px 64px;
+    display: grid; grid-template-columns: 1.15fr 0.85fr; gap: 48px;
+    align-items: center;
+    position: relative;
+  }
+  #endalia-rrhh-app .hero-eyebrow {
+    display: inline-flex; align-items: center; gap: 10px;
+    font-family: 'Poppins', sans-serif; font-weight: 600; font-size: 13px;
+    letter-spacing: 0.16em; text-transform: uppercase;
+    color: var(--endalia-green);
+  }
+  #endalia-rrhh-app .hero-eyebrow::before {
+    content: ""; width: 36px; height: 2px; background: var(--endalia-green);
+  }
+  #endalia-rrhh-app .hero-title {
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 600;
+    font-size: clamp(48px, 6.4vw, 96px) !important;
+    line-height: 1.05 !important;
+    letter-spacing: -0.035em;
+    color: var(--endalia-white) !important;
+    margin: 18px 0 22px;
+    text-wrap: balance;
+  }
+  #endalia-rrhh-app .hero-title .accent { color: var(--endalia-green) !important; font-weight: 600; }
+  #endalia-rrhh-app .hero-title .hand {
+    font-family: 'Caveat', cursive !important; font-weight: 700 !important;
+    color: var(--endalia-yellow) !important;
+    font-size: 0.92em !important;
+    letter-spacing: -0.01em;
+    display: inline-block;
+    transform: rotate(-3deg);
+    position: relative;
+    margin: 0 0.18em 0 0.05em;
+  }
+  #endalia-rrhh-app .hero-sub {
+    font-size: 17px !important;
+    line-height: 1.55 !important;
+    color: rgba(255,255,255,0.88) !important;
+    max-width: 580px;
+    margin: 0 0 18px !important;
+    font-weight: 400 !important;
+    font-family: 'Poppins', 'Roboto', sans-serif !important;
+    display: block !important;
+  }
+  #endalia-rrhh-app .hero-sub em {
+    font-style: italic !important;
+    color: var(--endalia-green);
+    font-weight: 600;
+  }
+  #endalia-rrhh-app .hero-sub + .hero-sub { margin-top: 0 !important; }
+  #endalia-rrhh-app .hero-cta-row {
+    display: flex; gap: 14px; flex-wrap: wrap; align-items: center;
+  }
+  #endalia-rrhh-app .btn {
+    display: inline-flex; align-items: center; gap: 10px;
+    padding: 16px 28px; border-radius: 999px; border: none;
+    font-family: 'Poppins', sans-serif; font-weight: 600; font-size: 16px;
+    transition: transform 140ms ease, box-shadow 140ms ease, background 140ms ease, color 140ms ease;
+    text-decoration: none;
+  }
+  #endalia-rrhh-app .btn-primary {
+    background: var(--endalia-green); color: #0A2A14;
+    box-shadow: 0 10px 28px rgba(46,190,106,0.35), inset 0 -2px 0 rgba(0,0,0,0.06);
+  }
+  #endalia-rrhh-app .btn-primary:hover { transform: translateY(-2px); background: #6FDE82; }
+  #endalia-rrhh-app .btn-primary:active { transform: translateY(0); }
+  #endalia-rrhh-app .btn-ghost {
+    background: transparent; color: var(--endalia-white);
+    border: 1.5px solid rgba(255,255,255,0.4);
+  }
+  #endalia-rrhh-app .btn-ghost:hover { background: rgba(255,255,255,0.08); border-color: rgba(255,255,255,0.7); }
+
+  #endalia-rrhh-app .hero-stats {
+    display: flex; gap: 24px; margin-top: 36px;
+    align-items: center; flex-wrap: wrap;
+  }
+  #endalia-rrhh-app .stat { display: flex; align-items: baseline; gap: 10px; }
+  #endalia-rrhh-app .stat-num {
+    font-family: 'Poppins', sans-serif; font-weight: 800; font-size: 40px;
+    color: var(--endalia-white); letter-spacing: -0.03em;
+    font-variant-numeric: tabular-nums;
+  }
+  #endalia-rrhh-app .stat-label { font-size: 13px; color: rgba(255,255,255,0.7); max-width: 130px; line-height: 1.3; }
+  #endalia-rrhh-app .stat-divider { width: 1px; height: 36px; background: rgba(255,255,255,0.18); }
+
+  /* =========== HERO ART =========== */
+  #endalia-rrhh-app .hero-art { position: relative; height: 540px; }
+
+  #endalia-rrhh-app .hero-medallion {
+    position: absolute;
+    top: 50%; left: 50%; transform: translate(-50%, -50%);
+    width: 360px; height: 360px; border-radius: 50%;
+    background: radial-gradient(circle at 30% 30%, #2E6CFF, #143EB3 70%);
+    box-shadow: 0 30px 80px rgba(9,35,102,0.55), inset 0 0 0 8px rgba(255,255,255,0.06);
+    display: grid; place-items: center;
+    overflow: hidden;
+  }
+  #endalia-rrhh-app .hero-medallion::before {
+    content: ""; position: absolute; inset: 0;
+    background:
+      radial-gradient(circle at 70% 75%, rgba(255,204,0,0.30), transparent 50%),
+      radial-gradient(circle at 25% 80%, rgba(135,230,151,0.25), transparent 55%);
+  }
+  #endalia-rrhh-app .hero-medallion-inner {
+    position: relative; z-index: 2;
+    width: 280px; height: 280px; border-radius: 50%;
+    background: rgba(9,35,102,0.55);
+    border: 2px dashed rgba(255,255,255,0.35);
+    display: grid; place-items: center;
+    text-align: center; padding: 28px;
+  }
+  #endalia-rrhh-app .medallion-day {
+    font-family: 'Poppins', sans-serif; font-weight: 900;
+    font-size: 88px; line-height: 0.9; color: var(--endalia-white);
+    letter-spacing: -0.05em;
+  }
+  #endalia-rrhh-app .medallion-month {
+    font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 18px;
+    color: var(--endalia-green); letter-spacing: 0.3em; margin-top: 4px;
+    text-transform: uppercase;
+  }
+  #endalia-rrhh-app .medallion-label {
+    font-size: 11px; color: rgba(255,255,255,0.7); letter-spacing: 0.24em;
+    text-transform: uppercase; margin-top: 18px;
+  }
+  #endalia-rrhh-app .medallion-ring {
+    position: absolute; inset: -28px;
+    border-radius: 50%; border: 1px solid rgba(255,255,255,0.25);
+    animation: endalia-spin 40s linear infinite;
+  }
+  #endalia-rrhh-app .medallion-ring::before,
+  #endalia-rrhh-app .medallion-ring::after {
+    content: ""; position: absolute;
+    width: 12px; height: 12px; border-radius: 50%;
+    background: var(--endalia-yellow);
+    top: -6px; left: 50%; transform: translateX(-50%);
+    box-shadow: 0 0 0 4px rgba(255,204,0,0.20);
+  }
+  #endalia-rrhh-app .medallion-ring::after {
+    background: var(--endalia-green); top: auto; bottom: -6px;
+    box-shadow: 0 0 0 4px rgba(135,230,151,0.20);
+  }
+  @keyframes endalia-spin { to { transform: rotate(360deg); } }
+
+  /* Floating decorative cards around medallion */
+  #endalia-rrhh-app .deco-card {
+    position: absolute;
+    border-radius: 14px;
+    padding: 14px 16px;
+    box-shadow: 0 22px 40px rgba(9,35,102,0.35);
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    line-height: 1.35;
+    transform: rotate(var(--rot, 0deg));
+    animation: endalia-floatDeco 7s ease-in-out infinite;
+    animation-delay: var(--delay, 0s);
+  }
+  @keyframes endalia-floatDeco {
+    0%,100% { transform: translateY(0) rotate(var(--rot, 0deg)); }
+    50% { transform: translateY(-12px) rotate(calc(var(--rot, 0deg) + 1deg)); }
+  }
+  #endalia-rrhh-app .deco-card.green { background: var(--endalia-green); color: #0A2A14; }
+  #endalia-rrhh-app .deco-card.yellow { background: var(--endalia-yellow); color: #3D2E00; }
+  #endalia-rrhh-app .deco-card.white { background: var(--endalia-white); color: var(--endalia-blue-night); }
+  #endalia-rrhh-app .deco-card.fucsia { background: var(--endalia-fucsia); color: var(--endalia-white); }
+  #endalia-rrhh-app .deco-card .sig { font-weight: 700; font-size: 11px; margin-top: 6px; opacity: 0.8; }
+
+  #endalia-rrhh-app .deco-1 { top: 10%; left: -2%; width: 200px; --rot: -7deg; --delay: 0s; }
+  #endalia-rrhh-app .deco-2 { top: 5%; right: 4%; width: 175px; --rot: 6deg; --delay: 1.5s; }
+  #endalia-rrhh-app .deco-3 { bottom: 14%; left: 8%; width: 170px; --rot: 5deg; --delay: 3s; }
+  #endalia-rrhh-app .deco-4 { bottom: 6%; right: -2%; width: 195px; --rot: -8deg; --delay: 0.8s; }
+
+  #endalia-rrhh-app .spark { position: absolute; pointer-events: none; }
+  #endalia-rrhh-app .spark.s1 { top: 8%; right: 28%; width: 32px; height: 32px; color: var(--endalia-yellow); animation: endalia-floatDeco 5s ease-in-out infinite; }
+  #endalia-rrhh-app .spark.s2 { bottom: 28%; right: 30%; width: 24px; height: 24px; color: var(--endalia-green); animation: endalia-floatDeco 6s ease-in-out infinite; animation-delay: 2s; }
+  #endalia-rrhh-app .spark.s3 { top: 40%; left: 4%; width: 28px; height: 28px; color: var(--endalia-fucsia); animation: endalia-floatDeco 7s ease-in-out infinite; animation-delay: 1s; }
+
+  /* =========== WALL SECTION =========== */
+  #endalia-rrhh-app .wall-section {
+    position: relative;
+    padding: 80px 40px 120px;
+    max-width: 1440px; margin: 0 auto;
+  }
+  #endalia-rrhh-app .wall-header {
+    display: flex; align-items: end; justify-content: space-between;
+    gap: 24px; margin-bottom: 48px; flex-wrap: wrap;
+  }
+  #endalia-rrhh-app .wall-title {
+    font-family: 'Poppins', sans-serif; font-weight: 800;
+    font-size: clamp(32px, 3.6vw, 52px);
+    line-height: 1.05; letter-spacing: -0.025em; margin: 0;
+    max-width: 720px; color: var(--endalia-white);
+  }
+  #endalia-rrhh-app .wall-title .accent { color: var(--endalia-green); }
+  #endalia-rrhh-app .wall-meta { display: flex; gap: 20px; align-items: center; flex-wrap: wrap; }
+  #endalia-rrhh-app .filter-group {
+    display: flex; gap: 6px;
+    background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.16);
+    border-radius: 999px; padding: 5px;
+    backdrop-filter: blur(6px);
+  }
+  #endalia-rrhh-app .filter-chip {
+    padding: 8px 16px; border-radius: 999px;
+    background: transparent; border: none; color: rgba(255,255,255,0.75);
+    font-size: 13px; font-weight: 500;
+    transition: background 140ms ease, color 140ms ease;
+  }
+  #endalia-rrhh-app .filter-chip:hover { color: var(--endalia-white); }
+  #endalia-rrhh-app .filter-chip.active { background: var(--endalia-white); color: var(--endalia-blue); font-weight: 600; }
+
+  /* Masonry via CSS columns */
+  #endalia-rrhh-app .wall { column-count: 4; column-gap: 22px; }
+  @media (max-width: 1180px) { #endalia-rrhh-app .wall { column-count: 3; } }
+  @media (max-width: 860px) { #endalia-rrhh-app .wall { column-count: 2; } }
+  @media (max-width: 560px) { #endalia-rrhh-app .wall { column-count: 1; } }
+
+  #endalia-rrhh-app .post {
+    break-inside: avoid;
+    display: block;
+    margin: 0 0 22px;
+    padding: 24px 22px 20px;
+    border-radius: 14px;
+    color: #0D1B3D;
+    box-shadow: 0 14px 30px rgba(9,35,102,0.25);
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    transform: rotate(var(--rot, 0deg));
+    transition: transform 200ms cubic-bezier(.2,0,.2,1), box-shadow 200ms ease;
+    animation: endalia-postEnter 500ms cubic-bezier(.2,0,.2,1) backwards;
+  }
+  @keyframes endalia-postEnter {
+    from { opacity: 0; transform: translateY(20px) rotate(var(--rot, 0deg)) scale(0.96); }
+    to { opacity: 1; transform: translateY(0) rotate(var(--rot, 0deg)) scale(1); }
+  }
+  #endalia-rrhh-app .post:hover { transform: rotate(0) translateY(-4px); box-shadow: 0 22px 40px rgba(9,35,102,0.32); z-index: 4; }
+  #endalia-rrhh-app .post .quote-mark {
+    font-family: 'Poppins', sans-serif; font-weight: 800; font-size: 56px;
+    line-height: 0.5; opacity: 0.18; margin-bottom: 4px;
+    user-select: none;
+  }
+  #endalia-rrhh-app .post-msg {
+    font-size: 16px; line-height: 1.45;
+    font-weight: 400;
+    text-wrap: pretty;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+  #endalia-rrhh-app .post-msg.handwritten { font-family: 'Caveat', cursive; font-weight: 600; font-size: 22px; line-height: 1.32; padding-bottom: 4px; }
+  #endalia-rrhh-app .post-footer {
+    margin-top: 16px; padding-top: 12px;
+    border-top: 1px solid rgba(13,27,61,0.10);
+    display: flex; align-items: center; justify-content: space-between;
+    gap: 10px;
+  }
+  #endalia-rrhh-app .post-author { display: flex; align-items: center; gap: 10px; min-width: 0; }
+  #endalia-rrhh-app .avatar {
+    width: 30px; height: 30px; border-radius: 50%;
+    background: rgba(13,27,61,0.10);
+    display: grid; place-items: center;
+    font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 12px;
+    color: #0D1B3D; flex-shrink: 0;
+  }
+  #endalia-rrhh-app .post-author-info { display: flex; flex-direction: column; min-width: 0; }
+  #endalia-rrhh-app .post-name { font-size: 13px; font-weight: 600; line-height: 1.2; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  #endalia-rrhh-app .post-role { font-size: 11px; opacity: 0.65; line-height: 1.2; }
+  #endalia-rrhh-app .like-btn {
+    display: inline-flex; align-items: center; gap: 5px;
+    background: transparent; border: 1px solid currentColor;
+    color: inherit;
+    padding: 5px 10px; border-radius: 999px;
+    font-size: 12px; font-weight: 600;
+    transition: background 140ms ease;
+    opacity: 0.85;
+  }
+  #endalia-rrhh-app .like-btn:hover { background: rgba(13,27,61,0.06); opacity: 1; }
+  #endalia-rrhh-app .like-btn.liked { background: var(--endalia-fucsia); color: var(--endalia-white); border-color: var(--endalia-fucsia); opacity: 1; }
+  #endalia-rrhh-app .like-btn .heart { font-size: 13px; line-height: 1; }
+
+  /* color variants */
+  #endalia-rrhh-app .post.c-white { background: var(--endalia-white); }
+  #endalia-rrhh-app .post.c-green { background: var(--endalia-green); }
+  #endalia-rrhh-app .post.c-yellow { background: var(--endalia-yellow); }
+  #endalia-rrhh-app .post.c-fucsia { background: var(--endalia-fucsia); color: var(--endalia-white); }
+  #endalia-rrhh-app .post.c-fucsia .avatar { background: rgba(255,255,255,0.20); color: var(--endalia-white); }
+  #endalia-rrhh-app .post.c-fucsia .post-footer { border-color: rgba(255,255,255,0.20); }
+  #endalia-rrhh-app .post.c-fucsia .quote-mark { opacity: 0.30; }
+  #endalia-rrhh-app .post.c-sky { background: #DDE7FF; }
+  #endalia-rrhh-app .post.c-cream { background: var(--endalia-cream); }
+
+  #endalia-rrhh-app .post.is-new { animation: endalia-postPop 700ms cubic-bezier(.34,1.56,.64,1); }
+  @keyframes endalia-postPop {
+    0% { transform: scale(0.4) rotate(0) translateY(40px); opacity: 0; }
+    60% { transform: scale(1.08) rotate(var(--rot, 0deg)); opacity: 1; }
+    100% { transform: scale(1) rotate(var(--rot, 0deg)); }
+  }
+
+  /* "add" tile */
+  #endalia-rrhh-app .post-add {
+    break-inside: avoid;
+    margin: 0 0 22px;
+    padding: 30px 22px;
+    border-radius: 14px;
+    border: 2px dashed rgba(255,255,255,0.45);
+    background: rgba(255,255,255,0.05);
+    color: var(--endalia-white);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    transition: background 140ms ease, transform 140ms ease, border-color 140ms ease;
+    cursor: pointer;
+    display: flex; flex-direction: column; align-items: center; gap: 10px;
+    width: 100%;
+  }
+  #endalia-rrhh-app .post-add:hover { background: rgba(255,255,255,0.10); border-color: var(--endalia-green); transform: translateY(-3px); }
+  #endalia-rrhh-app .post-add .plus {
+    width: 44px; height: 44px; border-radius: 50%;
+    background: var(--endalia-green); color: #0A2A14;
+    display: grid; place-items: center;
+    font-size: 24px; font-weight: 800;
+  }
+
+  /* =========== MODAL =========== */
+  #endalia-rrhh-app .modal-backdrop {
+    position: fixed; inset: 0; z-index: 2147483646;
+    background: rgba(9,35,102,0.65);
+    backdrop-filter: blur(8px);
+    display: grid; place-items: center;
+    padding: 24px;
+    animation: endalia-fadeIn 200ms ease;
+  }
+  @keyframes endalia-fadeIn { from { opacity: 0; } to { opacity: 1; } }
+  #endalia-rrhh-app .modal {
+    background: var(--endalia-white);
+    color: #0D1B3D;
+    border-radius: 20px;
+    width: 100%; max-width: 540px;
+    padding: 32px;
+    box-shadow: 0 40px 80px rgba(0,0,0,0.40);
+    animation: endalia-modalIn 280ms cubic-bezier(.2,0,.2,1);
+    position: relative;
+    max-height: 90vh;
+    overflow-y: auto;
+  }
+  @keyframes endalia-modalIn { from { opacity: 0; transform: translateY(20px) scale(0.96); } to { opacity: 1; transform: none; } }
+  #endalia-rrhh-app .modal-close {
+    position: absolute; top: 18px; right: 18px;
+    width: 36px; height: 36px; border-radius: 50%;
+    background: #F2F2F2; border: none; color: #0D1B3D;
+    font-size: 20px; line-height: 1;
+    display: grid; place-items: center;
+  }
+  #endalia-rrhh-app .modal-close:hover { background: #E6E6E6; }
+  #endalia-rrhh-app .modal-eyebrow {
+    font-family: 'Poppins', sans-serif; font-weight: 600;
+    font-size: 12px; letter-spacing: 0.18em; text-transform: uppercase;
+    color: var(--endalia-green-deep);
+    margin-bottom: 8px;
+  }
+  #endalia-rrhh-app .modal-title {
+    font-family: 'Poppins', sans-serif; font-weight: 800;
+    font-size: 30px; line-height: 1.1; letter-spacing: -0.02em;
+    margin: 0 0 8px; color: #0D1B3D;
+  }
+  #endalia-rrhh-app .modal-sub { font-size: 14px; color: #5A6679; margin: 0 0 22px; line-height: 1.5; }
+  #endalia-rrhh-app .field-label {
+    display: block; font-size: 12px; font-weight: 600;
+    color: #0D1B3D; margin: 16px 0 6px;
+    letter-spacing: 0.04em; text-transform: uppercase;
+  }
+  #endalia-rrhh-app .field-textarea {
+    width: 100%; min-height: 130px;
+    padding: 14px 16px; border-radius: 10px;
+    border: 1.5px solid #D8D8D8; background: #FAFBFD;
+    font-size: 15px; line-height: 1.5; resize: vertical;
+    color: #0D1B3D;
+    transition: border-color 140ms ease, box-shadow 140ms ease, background 140ms ease;
+    font-family: inherit;
+  }
+  #endalia-rrhh-app .field-textarea:focus,
+  #endalia-rrhh-app .field-input:focus {
+    outline: none; border-color: var(--endalia-blue);
+    background: var(--endalia-white);
+    box-shadow: 0 0 0 3px rgba(59,125,206,0.20);
+  }
+  #endalia-rrhh-app .field-textarea.cursive { font-family: 'Caveat', cursive; font-size: 22px; line-height: 1.15; min-height: 110px; }
+  #endalia-rrhh-app .field-row { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+  #endalia-rrhh-app .field-input {
+    width: 100%; padding: 12px 14px; border-radius: 10px;
+    border: 1.5px solid #D8D8D8; background: #FAFBFD;
+    font-size: 14px; color: #0D1B3D;
+    transition: border-color 140ms ease, box-shadow 140ms ease, background 140ms ease;
+  }
+  #endalia-rrhh-app .roles { display: flex; flex-wrap: wrap; gap: 8px; }
+  #endalia-rrhh-app .role-chip {
+    padding: 8px 14px; border-radius: 999px;
+    background: #F2F2F2; border: 1.5px solid #F2F2F2;
+    font-size: 13px; font-weight: 500;
+    color: #0D1B3D;
+    transition: all 140ms ease;
+  }
+  #endalia-rrhh-app .role-chip:hover { background: #E9EEFF; border-color: #B5CCFF; }
+  #endalia-rrhh-app .role-chip.active { background: var(--endalia-blue); color: var(--endalia-white); border-color: var(--endalia-blue); }
+
+  #endalia-rrhh-app .colors { display: flex; gap: 10px; align-items: center; }
+  #endalia-rrhh-app .color-swatch {
+    width: 38px; height: 38px; border-radius: 10px;
+    border: 2px solid transparent;
+    cursor: pointer; padding: 0;
+    transition: transform 140ms ease, border-color 140ms ease, box-shadow 140ms ease;
+    position: relative;
+  }
+  #endalia-rrhh-app .color-swatch.active { border-color: var(--endalia-blue); transform: scale(1.08); box-shadow: 0 0 0 3px rgba(59,125,206,0.20); }
+  #endalia-rrhh-app .color-swatch.c-white { background: var(--endalia-white); border-color: #D8D8D8; }
+  #endalia-rrhh-app .color-swatch.c-white.active { border-color: var(--endalia-blue); }
+  #endalia-rrhh-app .color-swatch.c-green { background: var(--endalia-green); }
+  #endalia-rrhh-app .color-swatch.c-yellow { background: var(--endalia-yellow); }
+  #endalia-rrhh-app .color-swatch.c-fucsia { background: var(--endalia-fucsia); }
+  #endalia-rrhh-app .color-swatch.c-sky { background: #DDE7FF; }
+  #endalia-rrhh-app .color-swatch.c-cream { background: var(--endalia-cream); border-color: #E6E0D0; }
+
+  #endalia-rrhh-app .toggle-style {
+    display: inline-flex; gap: 0; border-radius: 999px;
+    background: #F2F2F2; padding: 4px;
+  }
+  #endalia-rrhh-app .toggle-style button {
+    padding: 7px 14px; border-radius: 999px; border: none;
+    background: transparent; color: #5A6679; font-size: 12px; font-weight: 600;
+    transition: background 120ms ease, color 120ms ease;
+  }
+  #endalia-rrhh-app .toggle-style button.active { background: var(--endalia-white); color: var(--endalia-blue); box-shadow: 0 1px 3px rgba(0,0,0,0.10); }
+
+  #endalia-rrhh-app .modal-actions {
+    margin-top: 26px;
+    display: flex; gap: 10px; justify-content: flex-end; align-items: center;
+  }
+  #endalia-rrhh-app .btn-modal-cancel {
+    padding: 12px 22px; border-radius: 999px; border: none;
+    background: transparent; color: #5A6679; font-weight: 600;
+  }
+  #endalia-rrhh-app .btn-modal-cancel:hover { background: #F2F2F2; color: #0D1B3D; }
+  #endalia-rrhh-app .btn-modal-submit {
+    padding: 13px 26px; border-radius: 999px; border: none;
+    background: var(--endalia-blue); color: var(--endalia-white); font-weight: 600; font-family: 'Poppins', sans-serif;
+    box-shadow: 0 10px 22px rgba(18,82,161,0.30);
+    transition: background 140ms ease, transform 140ms ease;
+  }
+  #endalia-rrhh-app .btn-modal-submit:hover { background: var(--endalia-blue-deep); transform: translateY(-1px); }
+  #endalia-rrhh-app .btn-modal-submit:disabled { background: #D8D8D8; box-shadow: none; cursor: not-allowed; color: #8A95A6; }
+
+  #endalia-rrhh-app .modal-preview {
+    margin-top: 18px;
+    padding: 18px 18px 14px;
+    border-radius: 12px;
+    min-height: 70px;
+    box-shadow: inset 0 0 0 1px rgba(13,27,61,0.06);
+  }
+  #endalia-rrhh-app .modal-preview-label {
+    font-size: 11px; font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase;
+    color: #5A6679; margin-bottom: 8px;
+  }
+
+  /* Confetti */
+  #endalia-rrhh-app .confetti {
+    position: fixed; inset: 0; pointer-events: none; z-index: 2147483647; overflow: hidden;
+  }
+  #endalia-rrhh-app .confetti span {
+    position: absolute; top: -20px; width: 10px; height: 14px;
+    border-radius: 2px;
+    animation: endalia-confettiFall var(--dur, 2.4s) linear forwards;
+    animation-delay: var(--d, 0s);
+    transform-origin: center;
+  }
+  @keyframes endalia-confettiFall {
+    0% { transform: translate(0,0) rotate(0); opacity: 1; }
+    100% { transform: translate(var(--tx, 0), 110vh) rotate(var(--r, 720deg)); opacity: 0.9; }
+  }
+
+  #endalia-rrhh-app .wall-empty {
+    text-align: center; padding: 60px 20px;
+    color: rgba(255,255,255,0.7);
+  }
+
+  #endalia-rrhh-app .counter-flash { animation: endalia-countPulse 600ms ease; }
+  @keyframes endalia-countPulse { 0% { color: var(--endalia-green); transform: scale(1.2); } 100% { transform: scale(1); } }
+
+  /* setup banner shown when Firebase is not configured */
+  #endalia-rrhh-app .setup-banner {
+    max-width: 1360px; margin: 16px auto 0;
+    padding: 14px 22px; border-radius: 12px;
+    background: rgba(255,204,0,0.12);
+    border: 1px solid rgba(255,204,0,0.35);
+    color: #FFE9A0; font-size: 13px; line-height: 1.5;
+    display: flex; align-items: flex-start; gap: 12px;
+    font-family: 'Roboto', sans-serif;
+  }
+  #endalia-rrhh-app .setup-banner b { color: var(--endalia-yellow); font-weight: 700; }
+  #endalia-rrhh-app .setup-banner code {
+    background: rgba(0,0,0,0.25); padding: 1px 6px; border-radius: 4px;
+    font-family: ui-monospace, 'Menlo', monospace; font-size: 12px; color: #fff;
+  }
+  #endalia-rrhh-app .setup-banner svg { flex-shrink: 0; margin-top: 2px; }
+
+  /* empty wall state */
+  #endalia-rrhh-app .wall-empty-hero {
+    grid-column: 1 / -1;
+    text-align: center; padding: 64px 24px;
+    background: rgba(255,255,255,0.05);
+    border: 2px dashed rgba(255,255,255,0.20);
+    border-radius: 20px;
+    color: var(--endalia-white);
+    margin-top: 8px;
+  }
+  #endalia-rrhh-app .wall-empty-hero .big { font-size: 42px; margin-bottom: 8px; }
+  #endalia-rrhh-app .wall-empty-hero h3 {
+    font-family: 'Poppins', sans-serif; font-weight: 800; font-size: 26px;
+    margin: 0 0 8px; letter-spacing: -0.02em; color: var(--endalia-white);
+  }
+  #endalia-rrhh-app .wall-empty-hero p { color: rgba(255,255,255,0.75); margin: 0 0 20px; font-size: 15px; }
+
+  /* loading skeleton */
+  #endalia-rrhh-app .wall-loading {
+    text-align: center; padding: 40px 20px;
+    color: rgba(255,255,255,0.6); font-size: 14px;
+  }
+
+  /* small pulse dot used in eyebrow */
+  @keyframes endalia-pulseDot { 0%,100% { box-shadow: 0 0 0 0 rgba(135,230,151,0.40); } 50% { box-shadow: 0 0 0 8px rgba(135,230,151,0); } }
+
+  @media (max-width: 980px) {
+    #endalia-rrhh-app .hero { grid-template-columns: 1fr; padding: 48px 24px 40px; }
+    #endalia-rrhh-app .hero-art { height: 480px; }
+    #endalia-rrhh-app .wall-section { padding: 60px 24px 100px; }
+  }
+</style>
+<script>function ownKeys(e, r) { var t = Object.keys(e); if (Object.getOwnPropertySymbols) { var o = Object.getOwnPropertySymbols(e); r && (o = o.filter(function (r) { return Object.getOwnPropertyDescriptor(e, r).enumerable; })), t.push.apply(t, o); } return t; }
+function _objectSpread(e) { for (var r = 1; r < arguments.length; r++) { var t = null != arguments[r] ? arguments[r] : {}; r % 2 ? ownKeys(Object(t), !0).forEach(function (r) { _defineProperty(e, r, t[r]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(t)) : ownKeys(Object(t)).forEach(function (r) { Object.defineProperty(e, r, Object.getOwnPropertyDescriptor(t, r)); }); } return e; }
+function _defineProperty(e, r, t) { return (r = _toPropertyKey(r)) in e ? Object.defineProperty(e, r, { value: t, enumerable: !0, configurable: !0, writable: !0 }) : e[r] = t, e; }
+function _toPropertyKey(t) { var i = _toPrimitive(t, "string"); return "symbol" == typeof i ? i : i + ""; }
+function _toPrimitive(t, r) { if ("object" != typeof t || !t) return t; var e = t[Symbol.toPrimitive]; if (void 0 !== e) { var i = e.call(t, r || "default"); if ("object" != typeof i) return i; throw new TypeError("@@toPrimitive must return a primitive value."); } return ("string" === r ? String : Number)(t); }
+const {
+  useState,
+  useEffect,
+  useRef,
+  useMemo
+} = React;
+
+/* ============================================================
+   CONFIGURACIÓN DE FIREBASE
+   ------------------------------------------------------------
+   1. Entra en https://console.firebase.google.com y crea un
+      proyecto nuevo (p.ej. "endalia-dia-rrhh"). 2 minutos.
+   2. En el menú lateral, ve a "Build > Realtime Database" y
+      pulsa "Create database". Elige región europe-west1 y
+      arráncala en "test mode" (lectura/escritura abiertas).
+   3. En "Project settings > General > Your apps" añade una
+      app web (icono </>) y copia su SDK config.
+   4. Pega los valores AQUí abajo (basta apiKey y databaseURL):
+   ============================================================ */
+const FIREBASE_CONFIG = {
+  apiKey: "AIzaSyAK0S6UdJDj4MXzPrZFtNmdciXTTmnaMAE",
+  authDomain: "landing-diarrhh.firebaseapp.com",
+  databaseURL: "https://landing-diarrhh-default-rtdb.europe-west1.firebasedatabase.app",
+  projectId: "landing-diarrhh"
+};
+const FIREBASE_CONFIGURED = !FIREBASE_CONFIG.apiKey.startsWith("PEGA_AQUI") && !!FIREBASE_CONFIG.apiKey;
+
+/* Reglas de seguridad recomendadas en Realtime Database:
+   {
+     "rules": {
+       "messages": {
+         ".read":  true,
+         ".write": true,
+         "$id": {
+           ".validate": "newData.hasChildren(['msg','name','color','style','ts'])",
+           "msg":  { ".validate": "newData.isString() && newData.val().length <= 240" },
+           "name": { ".validate": "newData.isString() && newData.val().length <= 60" },
+           "dept": { ".validate": "newData.isString() && newData.val().length <= 60" },
+           "role": { ".validate": "newData.isString() && newData.val().length <= 30" },
+           "likes":{ ".validate": "newData.isNumber()" }
+         }
+       }
+     }
+   }
+*/
+
+let fbDb = null;
+let fbMessagesRef = null;
+if (FIREBASE_CONFIGURED && typeof firebase !== "undefined") {
+  try {
+    if (!firebase.apps.length) firebase.initializeApp(FIREBASE_CONFIG);
+    fbDb = firebase.database();
+    fbMessagesRef = fbDb.ref("messages");
+  } catch (e) {
+    console.error("[Endalia RR. HH.] Error inicializando Firebase:", e);
+  }
+}
+const LIKES_KEY = "endalia-rrhh-likes-v1";
+const COLORS = ["c-white", "c-green", "c-yellow", "c-fucsia", "c-sky", "c-cream"];
+const ROLES = ["Empleado/a", "Manager", "RR. HH.", "Dirección", "Otro"];
+function initials(name) {
+  if (!name || name.toLowerCase() === "anónimo" || name.toLowerCase() === "anonimo") return "·";
+  return name.trim().split(/\s+/).slice(0, 2).map(s => s[0]?.toUpperCase() || "").join("");
+}
+function relTime(ts) {
+  const diff = Date.now() - ts;
+  const m = Math.floor(diff / 60000);
+  if (m < 1) return "ahora mismo";
+  if (m < 60) return `hace ${m} min`;
+  const h = Math.floor(m / 60);
+  if (h < 24) return `hace ${h} h`;
+  const d = Math.floor(h / 24);
+  return `hace ${d} d`;
+}
+function randomRotation() {
+  return (Math.random() * 4 - 2).toFixed(2) + "deg";
+}
+function bgFor(c) {
+  return {
+    "c-white": "#FFFFFF",
+    "c-green": "#87E697",
+    "c-yellow": "#FFCC00",
+    "c-fucsia": "#FF0066",
+    "c-sky": "#DDE7FF",
+    "c-cream": "#F6F4EF"
+  }[c] || "#FFFFFF";
+}
+
+/* =================== APP =================== */
+function App() {
+  const [posts, setPosts] = useState([]);
+  const [loading, setLoading] = useState(FIREBASE_CONFIGURED);
+  const [likes, setLikes] = useState(() => {
+    try {
+      const raw = localStorage.getItem(LIKES_KEY);
+      if (raw) return JSON.parse(raw);
+    } catch (e) {}
+    return {};
+  });
+  const [filter, setFilter] = useState("recientes");
+  const [modalOpen, setModalOpen] = useState(false);
+  const [confettiSeed, setConfettiSeed] = useState(null);
+  const [lastNewId, setLastNewId] = useState(null);
+  const [counterFlash, setCounterFlash] = useState(false);
+
+  /* Save likes locally so the heart toggle persists per device. */
+  useEffect(() => {
+    try {
+      localStorage.setItem(LIKES_KEY, JSON.stringify(likes));
+    } catch (e) {}
+  }, [likes]);
+
+  /* Realtime listener. New messages appear instantly for every visitor. */
+  useEffect(() => {
+    if (!fbMessagesRef) {
+      setLoading(false);
+      return;
+    }
+    const handler = snapshot => {
+      const data = snapshot.val() || {};
+      const list = Object.entries(data).map(([id, m]) => _objectSpread({
+        id
+      }, m));
+      list.sort((a, b) => (b.ts || 0) - (a.ts || 0));
+      setPosts(list);
+      setLoading(false);
+    };
+    fbMessagesRef.on("value", handler);
+    return () => fbMessagesRef.off("value", handler);
+  }, []);
+  const rotations = useMemo(() => {
+    const out = {};
+    posts.forEach(p => {
+      out[p.id] = randomRotation();
+    });
+    return out;
+  }, [posts.map(p => p.id).join(",")]);
+  const filtered = useMemo(() => {
+    if (filter === "destacados") return [...posts].sort((a, b) => b.likes + (likes[b.id] ? 1 : 0) - (a.likes + (likes[a.id] ? 1 : 0)));
+    if (filter === "recientes") return [...posts].sort((a, b) => (b.ts || 0) - (a.ts || 0));
+    return posts;
+  }, [posts, filter, likes]);
+  const totalLikes = posts.reduce((sum, p) => sum + (p.likes || 0), 0);
+  const uniqueTeams = new Set(posts.map(p => p.dept).filter(Boolean)).size;
+  function addPost(p) {
+    if (fbMessagesRef) {
+      const ref = fbMessagesRef.push();
+      const payload = {
+        msg: p.msg,
+        name: p.name,
+        role: p.role,
+        dept: p.dept || "",
+        color: p.color,
+        style: p.style,
+        ts: firebase.database.ServerValue.TIMESTAMP,
+        likes: 0
+      };
+      ref.set(payload).catch(err => {
+        console.error("[Endalia RR. HH.] No se pudo guardar el mensaje:", err);
+        alert("No hemos podido publicar tu mensaje. Inténtalo de nuevo en unos segundos.");
+      });
+      setLastNewId(ref.key);
+    } else {
+      /* Modo demo (sin Firebase): se mantiene sólo en este navegador. */
+      const newPost = _objectSpread(_objectSpread({}, p), {}, {
+        id: "u" + Date.now(),
+        ts: Date.now(),
+        likes: 0
+      });
+      setPosts(prev => [newPost, ...prev]);
+      setLastNewId(newPost.id);
+    }
+    setModalOpen(false);
+    setConfettiSeed(Date.now());
+    setCounterFlash(true);
+    setTimeout(() => setCounterFlash(false), 700);
+    setTimeout(() => {
+      document.getElementById("endalia-wall-anchor")?.scrollIntoView({
+        behavior: "smooth",
+        block: "start"
+      });
+    }, 250);
+  }
+  function toggleLike(id) {
+    const wasLiked = !!likes[id];
+    setLikes(prev => _objectSpread(_objectSpread({}, prev), {}, {
+      [id]: !wasLiked
+    }));
+    if (fbDb) {
+      const ref = fbDb.ref(`messages/${id}/likes`);
+      ref.transaction(current => (current || 0) + (wasLiked ? -1 : 1)).catch(err => {
+        console.warn("[Endalia RR. HH.] No se pudo actualizar el contador de likes:", err);
+      });
+    } else {
+      setPosts(prev => prev.map(p => p.id === id ? _objectSpread(_objectSpread({}, p), {}, {
+        likes: (p.likes || 0) + (wasLiked ? -1 : 1)
+      }) : p));
+    }
+  }
+  return /*#__PURE__*/React.createElement("div", {
+    className: "stage"
+  }, /*#__PURE__*/React.createElement(Hero, {
+    onOpen: () => setModalOpen(true),
+    count: posts.length,
+    totalLikes: totalLikes,
+    uniqueTeams: uniqueTeams,
+    counterFlash: counterFlash
+  }), !FIREBASE_CONFIGURED && /*#__PURE__*/React.createElement(SetupBanner, null), /*#__PURE__*/React.createElement("div", {
+    id: "endalia-wall-anchor"
+  }), /*#__PURE__*/React.createElement("section", {
+    className: "wall-section"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "wall-header"
+  }, /*#__PURE__*/React.createElement("h2", {
+    className: "wall-title"
+  }, "Mensajes que ", /*#__PURE__*/React.createElement("span", {
+    className: "accent"
+  }, "no caben"), " en un email."), /*#__PURE__*/React.createElement("div", {
+    className: "wall-meta"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "filter-group",
+    role: "tablist"
+  }, [{
+    key: "recientes",
+    label: "Recientes"
+  }, {
+    key: "destacados",
+    label: "Destacados"
+  }, {
+    key: "todos",
+    label: "Todos"
+  }].map(f => /*#__PURE__*/React.createElement("button", {
+    key: f.key,
+    className: "filter-chip" + (filter === f.key ? " active" : ""),
+    onClick: () => setFilter(f.key)
+  }, f.label))))), loading ? /*#__PURE__*/React.createElement("div", {
+    className: "wall-loading"
+  }, "Cargando mensajes\u2026") : posts.length === 0 ? /*#__PURE__*/React.createElement("div", {
+    className: "wall-empty-hero"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "big"
+  }, "\u270D\uFE0F"), /*#__PURE__*/React.createElement("h3", null, "S\xE9 la primera persona en dejar un mensaje."), /*#__PURE__*/React.createElement("p", null, "El muro est\xE1 esperando. Tu mensaje aparecer\xE1 al instante para el resto del equipo."), /*#__PURE__*/React.createElement("button", {
+    className: "btn btn-primary",
+    onClick: () => setModalOpen(true)
+  }, "Escribir el primer mensaje")) : /*#__PURE__*/React.createElement("div", {
+    className: "wall"
+  }, /*#__PURE__*/React.createElement("button", {
+    className: "post-add",
+    onClick: () => setModalOpen(true)
+  }, /*#__PURE__*/React.createElement("span", {
+    className: "plus"
+  }, "+"), /*#__PURE__*/React.createElement("span", null, "A\xF1ade tu mensaje"), /*#__PURE__*/React.createElement("span", {
+    style: {
+      fontWeight: 400,
+      fontSize: 13,
+      opacity: 0.85
+    }
+  }, "Tarda menos de un minuto")), filtered.map(p => /*#__PURE__*/React.createElement(Post, {
+    key: p.id,
+    post: p,
+    rot: rotations[p.id],
+    isNew: p.id === lastNewId,
+    liked: !!likes[p.id],
+    onLike: () => toggleLike(p.id)
+  })))), modalOpen && /*#__PURE__*/React.createElement(MessageModal, {
+    onClose: () => setModalOpen(false),
+    onSubmit: addPost
+  }), confettiSeed && /*#__PURE__*/React.createElement(Confetti, {
+    key: confettiSeed,
+    onDone: () => setConfettiSeed(null)
+  }));
+}
+function SetupBanner() {
+  return /*#__PURE__*/React.createElement("div", {
+    className: "setup-banner"
+  }, /*#__PURE__*/React.createElement("svg", {
+    width: "20",
+    height: "20",
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: "currentColor",
+    strokeWidth: "2",
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
+  }, /*#__PURE__*/React.createElement("circle", {
+    cx: "12",
+    cy: "12",
+    r: "10"
+  }), /*#__PURE__*/React.createElement("line", {
+    x1: "12",
+    y1: "8",
+    x2: "12",
+    y2: "12"
+  }), /*#__PURE__*/React.createElement("line", {
+    x1: "12",
+    y1: "16",
+    x2: "12.01",
+    y2: "16"
+  })), /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("b", null, "Modo demo:"), " los mensajes que se publiquen ahora s\xF3lo se ver\xE1n en este navegador. Para que se compartan entre todos los visitantes, pega tu config de Firebase en la constante ", /*#__PURE__*/React.createElement("code", null, "FIREBASE_CONFIG"), " dentro del archivo HTML (instrucciones paso a paso en el comentario justo encima)."));
+}
+
+/* =================== HERO =================== */
+function Hero({
+  onOpen,
+  count,
+  totalLikes,
+  uniqueTeams,
+  counterFlash
+}) {
+  return /*#__PURE__*/React.createElement("section", {
+    className: "hero"
+  }, /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("div", {
+    className: "hero-eyebrow"
+  }, "D\xCDA INTERNACIONAL DE LOS RECURSOS HUMANOS \xB7 20 DE MAYO"), /*#__PURE__*/React.createElement("h1", {
+    className: "hero-title"
+  }, "Carta a ", /*#__PURE__*/React.createElement("span", {
+    className: "accent"
+  }, "RRHH"), ": lo que ", /*#__PURE__*/React.createElement("span", {
+    className: "hand"
+  }, "nunca"), " les dijiste."), /*#__PURE__*/React.createElement("p", {
+    className: "hero-sub"
+  }, "\xBFCu\xE1ndo fue la \xFAltima vez que alguien te dio las gracias? RRHH es ese departamento que siempre est\xE1 cuando lo necesitas, pero al que pocas veces escribimos para decir ", /*#__PURE__*/React.createElement("em", null, "gracias"), "."), /*#__PURE__*/React.createElement("p", {
+    className: "hero-sub",
+    style: {
+      marginTop: 0
+    }
+  }, "En Endalia sabemos que detr\xE1s de cada n\xF3mina correcta, de cada proceso de selecci\xF3n y de cada plan de formaci\xF3n, hay personas cuidando de personas. A menudo, su trabajo es invisible\u2026 hasta que alguien les da las gracias."), /*#__PURE__*/React.createElement("div", {
+    className: "hero-cta-row"
+  }, /*#__PURE__*/React.createElement("button", {
+    className: "btn btn-primary",
+    onClick: onOpen
+  }, /*#__PURE__*/React.createElement("svg", {
+    width: "20",
+    height: "20",
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: "currentColor",
+    strokeWidth: "2.4",
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
+  }, /*#__PURE__*/React.createElement("path", {
+    d: "M12 20h9"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4 12.5-12.5z"
+  })), "Escribir mi carta"), /*#__PURE__*/React.createElement("a", {
+    className: "btn btn-ghost",
+    href: "#endalia-wall-anchor"
+  }, "Leer las cartas", /*#__PURE__*/React.createElement("svg", {
+    width: "18",
+    height: "18",
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: "currentColor",
+    strokeWidth: "2.4",
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
+  }, /*#__PURE__*/React.createElement("line", {
+    x1: "5",
+    y1: "12",
+    x2: "19",
+    y2: "12"
+  }), /*#__PURE__*/React.createElement("polyline", {
+    points: "12 5 19 12 12 19"
+  })))), /*#__PURE__*/React.createElement("div", {
+    className: "hero-stats"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "stat"
+  }, /*#__PURE__*/React.createElement("span", {
+    className: "stat-num" + (counterFlash ? " counter-flash" : "")
+  }, count), /*#__PURE__*/React.createElement("span", {
+    className: "stat-label"
+  }, "cartas en el muro")), /*#__PURE__*/React.createElement("div", {
+    className: "stat-divider"
+  }), /*#__PURE__*/React.createElement("div", {
+    className: "stat"
+  }, /*#__PURE__*/React.createElement("span", {
+    className: "stat-num"
+  }, totalLikes), /*#__PURE__*/React.createElement("span", {
+    className: "stat-label"
+  }, "corazones repartidos")), /*#__PURE__*/React.createElement("div", {
+    className: "stat-divider"
+  }), /*#__PURE__*/React.createElement("div", {
+    className: "stat"
+  }, /*#__PURE__*/React.createElement("span", {
+    className: "stat-num"
+  }, uniqueTeams || 0), /*#__PURE__*/React.createElement("span", {
+    className: "stat-label"
+  }, "equipos participando")))), /*#__PURE__*/React.createElement("div", {
+    className: "hero-art",
+    "aria-hidden": true
+  }, /*#__PURE__*/React.createElement(Medallion, null), /*#__PURE__*/React.createElement("div", {
+    className: "deco-card green deco-1"
+  }, /*#__PURE__*/React.createElement("div", null, "\"Gracias por hacer f\xE1cil lo imposible.\""), /*#__PURE__*/React.createElement("div", {
+    className: "sig"
+  }, "\u2014 Carla, Ventas")), /*#__PURE__*/React.createElement("div", {
+    className: "deco-card white deco-2"
+  }, /*#__PURE__*/React.createElement("div", null, "\"Os tenemos en mente todo el a\xF1o, pero hoy en alto.\""), /*#__PURE__*/React.createElement("div", {
+    className: "sig"
+  }, "\u2014 Direcci\xF3n")), /*#__PURE__*/React.createElement("div", {
+    className: "deco-card yellow deco-3"
+  }, /*#__PURE__*/React.createElement("div", null, "\"N\xF3mina puntual, cabeza tranquila. Mil gracias.\""), /*#__PURE__*/React.createElement("div", {
+    className: "sig"
+  }, "\u2014 Jorge, Eng")), /*#__PURE__*/React.createElement("div", {
+    className: "deco-card fucsia deco-4"
+  }, /*#__PURE__*/React.createElement("div", null, "\"A las que escuchan antes de responder.\""), /*#__PURE__*/React.createElement("div", {
+    className: "sig"
+  }, "\u2014 Equipo Dise\xF1o")), /*#__PURE__*/React.createElement(Sparkle, {
+    className: "spark s1"
+  }), /*#__PURE__*/React.createElement(Sparkle, {
+    className: "spark s2",
+    type: "heart"
+  }), /*#__PURE__*/React.createElement(Sparkle, {
+    className: "spark s3",
+    type: "dot"
+  })));
+}
+function Medallion() {
+  return /*#__PURE__*/React.createElement("div", {
+    className: "hero-medallion"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "medallion-ring"
+  }), /*#__PURE__*/React.createElement("div", {
+    className: "hero-medallion-inner"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "medallion-label"
+  }, "D\xCDA DE LOS RRHH"), /*#__PURE__*/React.createElement("div", {
+    className: "medallion-day"
+  }, "20"), /*#__PURE__*/React.createElement("div", {
+    className: "medallion-month"
+  }, "Mayo"), /*#__PURE__*/React.createElement("div", {
+    className: "medallion-label"
+  }, "2026 \xB7 endalia")));
+}
+function Sparkle({
+  className,
+  type = "star"
+}) {
+  if (type === "heart") return /*#__PURE__*/React.createElement("svg", {
+    className: className,
+    viewBox: "0 0 24 24",
+    fill: "currentColor"
+  }, /*#__PURE__*/React.createElement("path", {
+    d: "M12 21s-7-4.35-7-10a4.5 4.5 0 0 1 8-2.84A4.5 4.5 0 0 1 21 11c0 5.65-7 10-9 10z"
+  }));
+  if (type === "dot") return /*#__PURE__*/React.createElement("svg", {
+    className: className,
+    viewBox: "0 0 24 24",
+    fill: "currentColor"
+  }, /*#__PURE__*/React.createElement("circle", {
+    cx: "12",
+    cy: "12",
+    r: "6"
+  }));
+  return /*#__PURE__*/React.createElement("svg", {
+    className: className,
+    viewBox: "0 0 24 24",
+    fill: "currentColor"
+  }, /*#__PURE__*/React.createElement("path", {
+    d: "M12 2 14 9l7 1.5-5.5 4.5L17 22l-5-3-5 3 1.5-7L3 10.5 10 9z"
+  }));
+}
+
+/* =================== POST =================== */
+function Post({
+  post,
+  rot,
+  isNew,
+  liked,
+  onLike
+}) {
+  return /*#__PURE__*/React.createElement("article", {
+    className: `post ${post.color}${isNew ? " is-new" : ""}`,
+    style: {
+      "--rot": rot
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "quote-mark"
+  }, "\""), /*#__PURE__*/React.createElement("div", {
+    className: "post-msg" + (post.style === "hand" ? " handwritten" : "")
+  }, post.msg), /*#__PURE__*/React.createElement("div", {
+    className: "post-footer"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "post-author"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "avatar"
+  }, initials(post.name)), /*#__PURE__*/React.createElement("div", {
+    className: "post-author-info"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "post-name"
+  }, post.name || "Anónimo"), /*#__PURE__*/React.createElement("div", {
+    className: "post-role"
+  }, [post.role, post.dept].filter(Boolean).join(" · ") || relTime(post.ts)))), /*#__PURE__*/React.createElement("button", {
+    className: "like-btn" + (liked ? " liked" : ""),
+    onClick: onLike,
+    "aria-label": "Me gusta"
+  }, /*#__PURE__*/React.createElement("span", {
+    className: "heart"
+  }, liked ? "♥" : "♡"), /*#__PURE__*/React.createElement("span", null, (post.likes || 0) + (liked ? 1 : 0)))));
+}
+
+/* =================== MODAL =================== */
+function MessageModal({
+  onClose,
+  onSubmit
+}) {
+  const [msg, setMsg] = useState("");
+  const [name, setName] = useState("");
+  const [dept, setDept] = useState("");
+  const [role, setRole] = useState("Empleado/a");
+  const [color, setColor] = useState("c-green");
+  const [style, setStyle] = useState("type");
+  const [anon, setAnon] = useState(false);
+  const inputRef = useRef(null);
+  useEffect(() => {
+    inputRef.current?.focus();
+  }, []);
+  useEffect(() => {
+    const onKey = e => {
+      if (e.key === "Escape") onClose();
+    };
+    document.addEventListener("keydown", onKey);
+    return () => document.removeEventListener("keydown", onKey);
+  }, [onClose]);
+  const max = 240;
+  const valid = msg.trim().length > 0 && msg.length <= max;
+  function handleSubmit(e) {
+    e?.preventDefault();
+    if (!valid) return;
+    onSubmit({
+      msg: msg.trim(),
+      name: anon ? "Anónimo" : name.trim() || "Anónimo",
+      role,
+      dept: anon ? "" : dept.trim(),
+      color,
+      style
+    });
+  }
+  return /*#__PURE__*/React.createElement("div", {
+    className: "modal-backdrop",
+    onClick: e => {
+      if (e.target.classList.contains("modal-backdrop")) onClose();
+    }
+  }, /*#__PURE__*/React.createElement("form", {
+    className: "modal",
+    onSubmit: handleSubmit
+  }, /*#__PURE__*/React.createElement("button", {
+    type: "button",
+    className: "modal-close",
+    onClick: onClose,
+    "aria-label": "Cerrar"
+  }, "\xD7"), /*#__PURE__*/React.createElement("div", {
+    className: "modal-eyebrow"
+  }, "Deja tu mensaje"), /*#__PURE__*/React.createElement("h2", {
+    className: "modal-title"
+  }, "\xBFQu\xE9 quieres decirles hoy?"), /*#__PURE__*/React.createElement("p", {
+    className: "modal-sub"
+  }, "A todo el equipo de RR. HH., a una persona concreta, o a quien t\xFA quieras. Lo ver\xE1n todos los compa\xF1eros y compa\xF1eras de Endalia."), /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: "flex",
+      justifyContent: "space-between",
+      alignItems: "center"
+    }
+  }, /*#__PURE__*/React.createElement("label", {
+    className: "field-label",
+    style: {
+      margin: 0
+    }
+  }, "Tu mensaje"), /*#__PURE__*/React.createElement("div", {
+    className: "toggle-style",
+    "aria-label": "Estilo de escritura"
+  }, /*#__PURE__*/React.createElement("button", {
+    type: "button",
+    className: style === "type" ? "active" : "",
+    onClick: () => setStyle("type")
+  }, "Imprenta"), /*#__PURE__*/React.createElement("button", {
+    type: "button",
+    className: style === "hand" ? "active" : "",
+    onClick: () => setStyle("hand")
+  }, "A mano"))), /*#__PURE__*/React.createElement("textarea", {
+    ref: inputRef,
+    className: "field-textarea" + (style === "hand" ? " cursive" : ""),
+    value: msg,
+    onChange: e => setMsg(e.target.value.slice(0, max)),
+    placeholder: style === "hand" ? "Gracias por…" : "Escribe aquí tu mensaje de gratitud, una anécdota o una dedicatoria.",
+    maxLength: max
+  }), /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: "flex",
+      justifyContent: "space-between",
+      fontSize: 12,
+      color: "#5A6679",
+      marginTop: 6
+    }
+  }, /*#__PURE__*/React.createElement("span", null, "Mant\xE9n el tono c\xE1lido y respetuoso."), /*#__PURE__*/React.createElement("span", {
+    style: {
+      fontVariantNumeric: "tabular-nums"
+    }
+  }, msg.length, " / ", max)), /*#__PURE__*/React.createElement("label", {
+    className: "field-label"
+  }, "\xBFQui\xE9n lo escribe?"), /*#__PURE__*/React.createElement("div", {
+    className: "field-row"
+  }, /*#__PURE__*/React.createElement("input", {
+    className: "field-input",
+    value: name,
+    onChange: e => setName(e.target.value),
+    placeholder: "Tu nombre",
+    disabled: anon
+  }), /*#__PURE__*/React.createElement("input", {
+    className: "field-input",
+    value: dept,
+    onChange: e => setDept(e.target.value),
+    placeholder: "Equipo o departamento",
+    disabled: anon
+  })), /*#__PURE__*/React.createElement("label", {
+    style: {
+      display: "flex",
+      alignItems: "center",
+      gap: 8,
+      marginTop: 10,
+      fontSize: 13,
+      color: "#5A6679",
+      cursor: "pointer"
+    }
+  }, /*#__PURE__*/React.createElement("input", {
+    type: "checkbox",
+    checked: anon,
+    onChange: e => setAnon(e.target.checked)
+  }), "Quiero firmar como an\xF3nimo"), /*#__PURE__*/React.createElement("label", {
+    className: "field-label"
+  }, "Tu rol"), /*#__PURE__*/React.createElement("div", {
+    className: "roles"
+  }, ROLES.map(r => /*#__PURE__*/React.createElement("button", {
+    key: r,
+    type: "button",
+    className: "role-chip" + (role === r ? " active" : ""),
+    onClick: () => setRole(r)
+  }, r))), /*#__PURE__*/React.createElement("label", {
+    className: "field-label"
+  }, "Color de la tarjeta"), /*#__PURE__*/React.createElement("div", {
+    className: "colors"
+  }, COLORS.map(c => /*#__PURE__*/React.createElement("button", {
+    key: c,
+    type: "button",
+    className: "color-swatch " + c + (color === c ? " active" : ""),
+    onClick: () => setColor(c),
+    "aria-label": "Color " + c
+  }))), /*#__PURE__*/React.createElement("div", {
+    className: "modal-preview",
+    style: {
+      background: bgFor(color),
+      color: color === "c-fucsia" ? "#fff" : "#0D1B3D"
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "modal-preview-label",
+    style: {
+      color: color === "c-fucsia" ? "rgba(255,255,255,0.7)" : "#5A6679"
+    }
+  }, "Vista previa"), /*#__PURE__*/React.createElement("div", {
+    style: {
+      fontFamily: style === "hand" ? "'Caveat', cursive" : "Roboto, sans-serif",
+      fontSize: style === "hand" ? 22 : 15,
+      lineHeight: style === "hand" ? 1.15 : 1.5,
+      fontWeight: style === "hand" ? 600 : 400,
+      whiteSpace: "pre-wrap"
+    }
+  }, msg || (style === "hand" ? "Aquí aparecerá tu mensaje a mano…" : "Aquí aparecerá tu mensaje.")), /*#__PURE__*/React.createElement("div", {
+    style: {
+      fontSize: 12,
+      marginTop: 10,
+      opacity: 0.7,
+      fontWeight: 600
+    }
+  }, "\u2014 ", anon ? "Anónimo" : name || "Tu nombre", !anon && dept ? ` · ${dept}` : "")), /*#__PURE__*/React.createElement("div", {
+    className: "modal-actions"
+  }, /*#__PURE__*/React.createElement("button", {
+    type: "button",
+    className: "btn-modal-cancel",
+    onClick: onClose
+  }, "Cancelar"), /*#__PURE__*/React.createElement("button", {
+    type: "submit",
+    className: "btn-modal-submit",
+    disabled: !valid
+  }, "Publicar en el muro"))));
+}
+
+/* =================== CONFETTI =================== */
+function Confetti({
+  onDone
+}) {
+  const pieces = useMemo(() => {
+    const palette = ["#87E697", "#FFCC00", "#FF0066", "#FFFFFF", "#6E91FC"];
+    return Array.from({
+      length: 90
+    }, (_, i) => ({
+      id: i,
+      left: Math.random() * 100,
+      tx: Math.random() * 200 - 100 + "px",
+      r: Math.random() * 1080 - 360 + "deg",
+      dur: 1.8 + Math.random() * 1.6 + "s",
+      d: Math.random() * 0.4 + "s",
+      bg: palette[i % palette.length],
+      w: 6 + Math.random() * 8,
+      h: 8 + Math.random() * 10,
+      br: Math.random() > 0.5 ? "2px" : "50%"
+    }));
+  }, []);
+  useEffect(() => {
+    const t = setTimeout(onDone, 3200);
+    return () => clearTimeout(t);
+  }, [onDone]);
+  return /*#__PURE__*/React.createElement("div", {
+    className: "confetti",
+    "aria-hidden": true
+  }, pieces.map(p => /*#__PURE__*/React.createElement("span", {
+    key: p.id,
+    style: {
+      left: p.left + "%",
+      "--tx": p.tx,
+      "--r": p.r,
+      "--dur": p.dur,
+      "--d": p.d,
+      background: p.bg,
+      width: p.w,
+      height: p.h,
+      borderRadius: p.br
+    }
+  })));
+}
+ReactDOM.createRoot(document.getElementById("endalia-rrhh-app")).render(/*#__PURE__*/React.createElement(App, null));
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJ1c2VTdGF0ZSIsInVzZUVmZmVjdCIsInVzZVJlZiIsInVzZU1lbW8iLCJSZWFjdCIsIkZJUkVCQVNFX0NPTkZJRyIsImFwaUtleSIsImF1dGhEb21haW4iLCJkYXRhYmFzZVVSTCIsInByb2plY3RJZCIsIkZJUkVCQVNFX0NPTkZJR1VSRUQiLCJzdGFydHNXaXRoIiwiZmJEYiIsImZiTWVzc2FnZXNSZWYiLCJmaXJlYmFzZSIsImFwcHMiLCJsZW5ndGgiLCJpbml0aWFsaXplQXBwIiwiZGF0YWJhc2UiLCJyZWYiLCJlIiwiY29uc29sZSIsImVycm9yIiwiTElLRVNfS0VZIiwiQ09MT1JTIiwiUk9MRVMiLCJpbml0aWFscyIsIm5hbWUiLCJ0b0xvd2VyQ2FzZSIsInRyaW0iLCJzcGxpdCIsInNsaWNlIiwibWFwIiwicyIsInRvVXBwZXJDYXNlIiwiam9pbiIsInJlbFRpbWUiLCJ0cyIsImRpZmYiLCJEYXRlIiwibm93IiwibSIsIk1hdGgiLCJmbG9vciIsImgiLCJkIiwicmFuZG9tUm90YXRpb24iLCJyYW5kb20iLCJ0b0ZpeGVkIiwiYmdGb3IiLCJjIiwiQXBwIiwicG9zdHMiLCJzZXRQb3N0cyIsImxvYWRpbmciLCJzZXRMb2FkaW5nIiwibGlrZXMiLCJzZXRMaWtlcyIsInJhdyIsImxvY2FsU3RvcmFnZSIsImdldEl0ZW0iLCJKU09OIiwicGFyc2UiLCJmaWx0ZXIiLCJzZXRGaWx0ZXIiLCJtb2RhbE9wZW4iLCJzZXRNb2RhbE9wZW4iLCJjb25mZXR0aVNlZWQiLCJzZXRDb25mZXR0aVNlZWQiLCJsYXN0TmV3SWQiLCJzZXRMYXN0TmV3SWQiLCJjb3VudGVyRmxhc2giLCJzZXRDb3VudGVyRmxhc2giLCJzZXRJdGVtIiwic3RyaW5naWZ5IiwiaGFuZGxlciIsInNuYXBzaG90IiwiZGF0YSIsInZhbCIsImxpc3QiLCJPYmplY3QiLCJlbnRyaWVzIiwiaWQiLCJfb2JqZWN0U3ByZWFkIiwic29ydCIsImEiLCJiIiwib24iLCJvZmYiLCJyb3RhdGlvbnMiLCJvdXQiLCJmb3JFYWNoIiwicCIsImZpbHRlcmVkIiwidG90YWxMaWtlcyIsInJlZHVjZSIsInN1bSIsInVuaXF1ZVRlYW1zIiwiU2V0IiwiZGVwdCIsIkJvb2xlYW4iLCJzaXplIiwiYWRkUG9zdCIsInB1c2giLCJwYXlsb2FkIiwibXNnIiwicm9sZSIsImNvbG9yIiwic3R5bGUiLCJTZXJ2ZXJWYWx1ZSIsIlRJTUVTVEFNUCIsInNldCIsImNhdGNoIiwiZXJyIiwiYWxlcnQiLCJrZXkiLCJuZXdQb3N0IiwicHJldiIsInNldFRpbWVvdXQiLCJkb2N1bWVudCIsImdldEVsZW1lbnRCeUlkIiwic2Nyb2xsSW50b1ZpZXciLCJiZWhhdmlvciIsImJsb2NrIiwidG9nZ2xlTGlrZSIsIndhc0xpa2VkIiwidHJhbnNhY3Rpb24iLCJjdXJyZW50Iiwid2FybiIsImNyZWF0ZUVsZW1lbnQiLCJjbGFzc05hbWUiLCJIZXJvIiwib25PcGVuIiwiY291bnQiLCJTZXR1cEJhbm5lciIsImxhYmVsIiwiZiIsIm9uQ2xpY2siLCJmb250V2VpZ2h0IiwiZm9udFNpemUiLCJvcGFjaXR5IiwiUG9zdCIsInBvc3QiLCJyb3QiLCJpc05ldyIsImxpa2VkIiwib25MaWtlIiwiTWVzc2FnZU1vZGFsIiwib25DbG9zZSIsIm9uU3VibWl0IiwiQ29uZmV0dGkiLCJvbkRvbmUiLCJ3aWR0aCIsImhlaWdodCIsInZpZXdCb3giLCJmaWxsIiwic3Ryb2tlIiwic3Ryb2tlV2lkdGgiLCJzdHJva2VMaW5lY2FwIiwic3Ryb2tlTGluZWpvaW4iLCJjeCIsImN5IiwiciIsIngxIiwieTEiLCJ4MiIsInkyIiwibWFyZ2luVG9wIiwiaHJlZiIsInBvaW50cyIsIk1lZGFsbGlvbiIsIlNwYXJrbGUiLCJ0eXBlIiwic2V0TXNnIiwic2V0TmFtZSIsInNldERlcHQiLCJzZXRSb2xlIiwic2V0Q29sb3IiLCJzZXRTdHlsZSIsImFub24iLCJzZXRBbm9uIiwiaW5wdXRSZWYiLCJmb2N1cyIsIm9uS2V5IiwiYWRkRXZlbnRMaXN0ZW5lciIsInJlbW92ZUV2ZW50TGlzdGVuZXIiLCJtYXgiLCJ2YWxpZCIsImhhbmRsZVN1Ym1pdCIsInByZXZlbnREZWZhdWx0IiwidGFyZ2V0IiwiY2xhc3NMaXN0IiwiY29udGFpbnMiLCJkaXNwbGF5IiwianVzdGlmeUNvbnRlbnQiLCJhbGlnbkl0ZW1zIiwibWFyZ2luIiwidmFsdWUiLCJvbkNoYW5nZSIsInBsYWNlaG9sZGVyIiwibWF4TGVuZ3RoIiwiZm9udFZhcmlhbnROdW1lcmljIiwiZGlzYWJsZWQiLCJnYXAiLCJjdXJzb3IiLCJjaGVja2VkIiwiYmFja2dyb3VuZCIsImZvbnRGYW1pbHkiLCJsaW5lSGVpZ2h0Iiwid2hpdGVTcGFjZSIsInBpZWNlcyIsInBhbGV0dGUiLCJBcnJheSIsImZyb20iLCJfIiwiaSIsImxlZnQiLCJ0eCIsImR1ciIsImJnIiwidyIsImJyIiwidCIsImNsZWFyVGltZW91dCIsImJvcmRlclJhZGl1cyIsIlJlYWN0RE9NIiwiY3JlYXRlUm9vdCIsInJlbmRlciJdLCJzb3VyY2VzIjpbIklubGluZSBCYWJlbCBzY3JpcHQiXSwic291cmNlc0NvbnRlbnQiOlsiXG5cblxuY29uc3QgeyB1c2VTdGF0ZSwgdXNlRWZmZWN0LCB1c2VSZWYsIHVzZU1lbW8gfSA9IFJlYWN0O1xuXG4vKiA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT1cbiAgIENPTkZJR1VSQUNJw5NOIERFIEZJUkVCQVNFXG4gICAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS1cbiAgIDEuIEVudHJhIGVuIGh0dHBzOi8vY29uc29sZS5maXJlYmFzZS5nb29nbGUuY29tIHkgY3JlYSB1blxuICAgICAgcHJveWVjdG8gbnVldm8gKHAuZWouIFwiZW5kYWxpYS1kaWEtcnJoaFwiKS4gMiBtaW51dG9zLlxuICAgMi4gRW4gZWwgbWVuw7ogbGF0ZXJhbCwgdmUgYSBcIkJ1aWxkID4gUmVhbHRpbWUgRGF0YWJhc2VcIiB5XG4gICAgICBwdWxzYSBcIkNyZWF0ZSBkYXRhYmFzZVwiLiBFbGlnZSByZWdpw7NuIGV1cm9wZS13ZXN0MSB5XG4gICAgICBhcnLDoW5jYWxhIGVuIFwidGVzdCBtb2RlXCIgKGxlY3R1cmEvZXNjcml0dXJhIGFiaWVydGFzKS5cbiAgIDMuIEVuIFwiUHJvamVjdCBzZXR0aW5ncyA+IEdlbmVyYWwgPiBZb3VyIGFwcHNcIiBhw7FhZGUgdW5hXG4gICAgICBhcHAgd2ViIChpY29ubyA8Lz4pIHkgY29waWEgc3UgU0RLIGNvbmZpZy5cbiAgIDQuIFBlZ2EgbG9zIHZhbG9yZXMgQVFVw60gYWJham8gKGJhc3RhIGFwaUtleSB5IGRhdGFiYXNlVVJMKTpcbiAgID09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PSAqL1xuY29uc3QgRklSRUJBU0VfQ09ORklHID0ge1xuICBhcGlLZXk6IFwiQUl6YVN5QUswUzZVZEpEajRNWHpQclpGdE5tZGNpWFRUbW5hTUFFXCIsXG4gIGF1dGhEb21haW46IFwibGFuZGluZy1kaWFycmhoLmZpcmViYXNlYXBwLmNvbVwiLFxuICBkYXRhYmFzZVVSTDogXCJodHRwczovL2xhbmRpbmctZGlhcnJoaC1kZWZhdWx0LXJ0ZGIuZXVyb3BlLXdlc3QxLmZpcmViYXNlZGF0YWJhc2UuYXBwXCIsXG4gIHByb2plY3RJZDogXCJsYW5kaW5nLWRpYXJyaGhcIlxufTtcblxuY29uc3QgRklSRUJBU0VfQ09ORklHVVJFRCA9ICFGSVJFQkFTRV9DT05GSUcuYXBpS2V5LnN0YXJ0c1dpdGgoXCJQRUdBX0FRVUlcIikgJiYgISFGSVJFQkFTRV9DT05GSUcuYXBpS2V5O1xuXG4vKiBSZWdsYXMgZGUgc2VndXJpZGFkIHJlY29tZW5kYWRhcyBlbiBSZWFsdGltZSBEYXRhYmFzZTpcbiAgIHtcbiAgICAgXCJydWxlc1wiOiB7XG4gICAgICAgXCJtZXNzYWdlc1wiOiB7XG4gICAgICAgICBcIi5yZWFkXCI6ICB0cnVlLFxuICAgICAgICAgXCIud3JpdGVcIjogdHJ1ZSxcbiAgICAgICAgIFwiJGlkXCI6IHtcbiAgICAgICAgICAgXCIudmFsaWRhdGVcIjogXCJuZXdEYXRhLmhhc0NoaWxkcmVuKFsnbXNnJywnbmFtZScsJ2NvbG9yJywnc3R5bGUnLCd0cyddKVwiLFxuICAgICAgICAgICBcIm1zZ1wiOiAgeyBcIi52YWxpZGF0ZVwiOiBcIm5ld0RhdGEuaXNTdHJpbmcoKSAmJiBuZXdEYXRhLnZhbCgpLmxlbmd0aCA8PSAyNDBcIiB9LFxuICAgICAgICAgICBcIm5hbWVcIjogeyBcIi52YWxpZGF0ZVwiOiBcIm5ld0RhdGEuaXNTdHJpbmcoKSAmJiBuZXdEYXRhLnZhbCgpLmxlbmd0aCA8PSA2MFwiIH0sXG4gICAgICAgICAgIFwiZGVwdFwiOiB7IFwiLnZhbGlkYXRlXCI6IFwibmV3RGF0YS5pc1N0cmluZygpICYmIG5ld0RhdGEudmFsKCkubGVuZ3RoIDw9IDYwXCIgfSxcbiAgICAgICAgICAgXCJyb2xlXCI6IHsgXCIudmFsaWRhdGVcIjogXCJuZXdEYXRhLmlzU3RyaW5nKCkgJiYgbmV3RGF0YS52YWwoKS5sZW5ndGggPD0gMzBcIiB9LFxuICAgICAgICAgICBcImxpa2VzXCI6eyBcIi52YWxpZGF0ZVwiOiBcIm5ld0RhdGEuaXNOdW1iZXIoKVwiIH1cbiAgICAgICAgIH1cbiAgICAgICB9XG4gICAgIH1cbiAgIH1cbiovXG5cbmxldCBmYkRiID0gbnVsbDtcbmxldCBmYk1lc3NhZ2VzUmVmID0gbnVsbDtcbmlmIChGSVJFQkFTRV9DT05GSUdVUkVEICYmIHR5cGVvZiBmaXJlYmFzZSAhPT0gXCJ1bmRlZmluZWRcIikge1xuICB0cnkge1xuICAgIGlmICghZmlyZWJhc2UuYXBwcy5sZW5ndGgpIGZpcmViYXNlLmluaXRpYWxpemVBcHAoRklSRUJBU0VfQ09ORklHKTtcbiAgICBmYkRiID0gZmlyZWJhc2UuZGF0YWJhc2UoKTtcbiAgICBmYk1lc3NhZ2VzUmVmID0gZmJEYi5yZWYoXCJtZXNzYWdlc1wiKTtcbiAgfSBjYXRjaCAoZSkge1xuICAgIGNvbnNvbGUuZXJyb3IoXCJbRW5kYWxpYSBSUi4gSEguXSBFcnJvciBpbmljaWFsaXphbmRvIEZpcmViYXNlOlwiLCBlKTtcbiAgfVxufVxuXG5jb25zdCBMSUtFU19LRVkgPSBcImVuZGFsaWEtcnJoaC1saWtlcy12MVwiO1xuXG5jb25zdCBDT0xPUlMgPSBbXCJjLXdoaXRlXCIsIFwiYy1ncmVlblwiLCBcImMteWVsbG93XCIsIFwiYy1mdWNzaWFcIiwgXCJjLXNreVwiLCBcImMtY3JlYW1cIl07XG5jb25zdCBST0xFUyA9IFtcIkVtcGxlYWRvL2FcIiwgXCJNYW5hZ2VyXCIsIFwiUlIuIEhILlwiLCBcIkRpcmVjY2nDs25cIiwgXCJPdHJvXCJdO1xuXG5mdW5jdGlvbiBpbml0aWFscyhuYW1lKSB7XG4gIGlmICghbmFtZSB8fCBuYW1lLnRvTG93ZXJDYXNlKCkgPT09IFwiYW7Ds25pbW9cIiB8fCBuYW1lLnRvTG93ZXJDYXNlKCkgPT09IFwiYW5vbmltb1wiKSByZXR1cm4gXCLCt1wiO1xuICByZXR1cm4gbmFtZS50cmltKCkuc3BsaXQoL1xccysvKS5zbGljZSgwLCAyKS5tYXAoKHMpID0+IHNbMF0/LnRvVXBwZXJDYXNlKCkgfHwgXCJcIikuam9pbihcIlwiKTtcbn1cblxuZnVuY3Rpb24gcmVsVGltZSh0cykge1xuICBjb25zdCBkaWZmID0gRGF0ZS5ub3coKSAtIHRzO1xuICBjb25zdCBtID0gTWF0aC5mbG9vcihkaWZmIC8gNjAwMDApO1xuICBpZiAobSA8IDEpIHJldHVybiBcImFob3JhIG1pc21vXCI7XG4gIGlmIChtIDwgNjApIHJldHVybiBgaGFjZSAke219IG1pbmA7XG4gIGNvbnN0IGggPSBNYXRoLmZsb29yKG0gLyA2MCk7XG4gIGlmIChoIDwgMjQpIHJldHVybiBgaGFjZSAke2h9IGhgO1xuICBjb25zdCBkID0gTWF0aC5mbG9vcihoIC8gMjQpO1xuICByZXR1cm4gYGhhY2UgJHtkfSBkYDtcbn1cblxuZnVuY3Rpb24gcmFuZG9tUm90YXRpb24oKSB7XG4gIHJldHVybiAoTWF0aC5yYW5kb20oKSAqIDQgLSAyKS50b0ZpeGVkKDIpICsgXCJkZWdcIjtcbn1cblxuZnVuY3Rpb24gYmdGb3IoYykge1xuICByZXR1cm4ge1xuICAgIFwiYy13aGl0ZVwiOiBcIiNGRkZGRkZcIixcbiAgICBcImMtZ3JlZW5cIjogXCIjODdFNjk3XCIsXG4gICAgXCJjLXllbGxvd1wiOiBcIiNGRkNDMDBcIixcbiAgICBcImMtZnVjc2lhXCI6IFwiI0ZGMDA2NlwiLFxuICAgIFwiYy1za3lcIjogXCIjRERFN0ZGXCIsXG4gICAgXCJjLWNyZWFtXCI6IFwiI0Y2RjRFRlwiXG4gIH1bY10gfHwgXCIjRkZGRkZGXCI7XG59XG5cbi8qID09PT09PT09PT09PT09PT09PT0gQVBQID09PT09PT09PT09PT09PT09PT0gKi9cbmZ1bmN0aW9uIEFwcCgpIHtcbiAgY29uc3QgW3Bvc3RzLCBzZXRQb3N0c10gPSB1c2VTdGF0ZShbXSk7XG4gIGNvbnN0IFtsb2FkaW5nLCBzZXRMb2FkaW5nXSA9IHVzZVN0YXRlKEZJUkVCQVNFX0NPTkZJR1VSRUQpO1xuICBjb25zdCBbbGlrZXMsIHNldExpa2VzXSA9IHVzZVN0YXRlKCgpID0+IHtcbiAgICB0cnkge1xuICAgICAgY29uc3QgcmF3ID0gbG9jYWxTdG9yYWdlLmdldEl0ZW0oTElLRVNfS0VZKTtcbiAgICAgIGlmIChyYXcpIHJldHVybiBKU09OLnBhcnNlKHJhdyk7XG4gICAgfSBjYXRjaCAoZSkge31cbiAgICByZXR1cm4ge307XG4gIH0pO1xuICBjb25zdCBbZmlsdGVyLCBzZXRGaWx0ZXJdID0gdXNlU3RhdGUoXCJyZWNpZW50ZXNcIik7XG4gIGNvbnN0IFttb2RhbE9wZW4sIHNldE1vZGFsT3Blbl0gPSB1c2VTdGF0ZShmYWxzZSk7XG4gIGNvbnN0IFtjb25mZXR0aVNlZWQsIHNldENvbmZldHRpU2VlZF0gPSB1c2VTdGF0ZShudWxsKTtcbiAgY29uc3QgW2xhc3ROZXdJZCwgc2V0TGFzdE5ld0lkXSA9IHVzZVN0YXRlKG51bGwpO1xuICBjb25zdCBbY291bnRlckZsYXNoLCBzZXRDb3VudGVyRmxhc2hdID0gdXNlU3RhdGUoZmFsc2UpO1xuXG4gIC8qIFNhdmUgbGlrZXMgbG9jYWxseSBzbyB0aGUgaGVhcnQgdG9nZ2xlIHBlcnNpc3RzIHBlciBkZXZpY2UuICovXG4gIHVzZUVmZmVjdCgoKSA9PiB7dHJ5IHtsb2NhbFN0b3JhZ2Uuc2V0SXRlbShMSUtFU19LRVksIEpTT04uc3RyaW5naWZ5KGxpa2VzKSk7fSBjYXRjaCAoZSkge319LCBbbGlrZXNdKTtcblxuICAvKiBSZWFsdGltZSBsaXN0ZW5lci4gTmV3IG1lc3NhZ2VzIGFwcGVhciBpbnN0YW50bHkgZm9yIGV2ZXJ5IHZpc2l0b3IuICovXG4gIHVzZUVmZmVjdCgoKSA9PiB7XG4gICAgaWYgKCFmYk1lc3NhZ2VzUmVmKSB7c2V0TG9hZGluZyhmYWxzZSk7cmV0dXJuO31cbiAgICBjb25zdCBoYW5kbGVyID0gKHNuYXBzaG90KSA9PiB7XG4gICAgICBjb25zdCBkYXRhID0gc25hcHNob3QudmFsKCkgfHwge307XG4gICAgICBjb25zdCBsaXN0ID0gT2JqZWN0LmVudHJpZXMoZGF0YSkubWFwKChbaWQsIG1dKSA9PiAoeyBpZCwgLi4ubSB9KSk7XG4gICAgICBsaXN0LnNvcnQoKGEsIGIpID0+IChiLnRzIHx8IDApIC0gKGEudHMgfHwgMCkpO1xuICAgICAgc2V0UG9zdHMobGlzdCk7XG4gICAgICBzZXRMb2FkaW5nKGZhbHNlKTtcbiAgICB9O1xuICAgIGZiTWVzc2FnZXNSZWYub24oXCJ2YWx1ZVwiLCBoYW5kbGVyKTtcbiAgICByZXR1cm4gKCkgPT4gZmJNZXNzYWdlc1JlZi5vZmYoXCJ2YWx1ZVwiLCBoYW5kbGVyKTtcbiAgfSwgW10pO1xuXG4gIGNvbnN0IHJvdGF0aW9ucyA9IHVzZU1lbW8oKCkgPT4ge1xuICAgIGNvbnN0IG91dCA9IHt9O1xuICAgIHBvc3RzLmZvckVhY2goKHApID0+IHtvdXRbcC5pZF0gPSByYW5kb21Sb3RhdGlvbigpO30pO1xuICAgIHJldHVybiBvdXQ7XG4gIH0sIFtwb3N0cy5tYXAoKHApID0+IHAuaWQpLmpvaW4oXCIsXCIpXSk7XG5cbiAgY29uc3QgZmlsdGVyZWQgPSB1c2VNZW1vKCgpID0+IHtcbiAgICBpZiAoZmlsdGVyID09PSBcImRlc3RhY2Fkb3NcIikgcmV0dXJuIFsuLi5wb3N0c10uc29ydCgoYSwgYikgPT4gYi5saWtlcyArIChsaWtlc1tiLmlkXSA/IDEgOiAwKSAtIChhLmxpa2VzICsgKGxpa2VzW2EuaWRdID8gMSA6IDApKSk7XG4gICAgaWYgKGZpbHRlciA9PT0gXCJyZWNpZW50ZXNcIikgcmV0dXJuIFsuLi5wb3N0c10uc29ydCgoYSwgYikgPT4gKGIudHMgfHwgMCkgLSAoYS50cyB8fCAwKSk7XG4gICAgcmV0dXJuIHBvc3RzO1xuICB9LCBbcG9zdHMsIGZpbHRlciwgbGlrZXNdKTtcblxuICBjb25zdCB0b3RhbExpa2VzID0gcG9zdHMucmVkdWNlKChzdW0sIHApID0+IHN1bSArIChwLmxpa2VzIHx8IDApLCAwKTtcbiAgY29uc3QgdW5pcXVlVGVhbXMgPSBuZXcgU2V0KHBvc3RzLm1hcCgocCkgPT4gcC5kZXB0KS5maWx0ZXIoQm9vbGVhbikpLnNpemU7XG5cbiAgZnVuY3Rpb24gYWRkUG9zdChwKSB7XG4gICAgaWYgKGZiTWVzc2FnZXNSZWYpIHtcbiAgICAgIGNvbnN0IHJlZiA9IGZiTWVzc2FnZXNSZWYucHVzaCgpO1xuICAgICAgY29uc3QgcGF5bG9hZCA9IHtcbiAgICAgICAgbXNnOiBwLm1zZywgbmFtZTogcC5uYW1lLCByb2xlOiBwLnJvbGUsIGRlcHQ6IHAuZGVwdCB8fCBcIlwiLFxuICAgICAgICBjb2xvcjogcC5jb2xvciwgc3R5bGU6IHAuc3R5bGUsXG4gICAgICAgIHRzOiBmaXJlYmFzZS5kYXRhYmFzZS5TZXJ2ZXJWYWx1ZS5USU1FU1RBTVAsXG4gICAgICAgIGxpa2VzOiAwXG4gICAgICB9O1xuICAgICAgcmVmLnNldChwYXlsb2FkKS5jYXRjaCgoZXJyKSA9PiB7XG4gICAgICAgIGNvbnNvbGUuZXJyb3IoXCJbRW5kYWxpYSBSUi4gSEguXSBObyBzZSBwdWRvIGd1YXJkYXIgZWwgbWVuc2FqZTpcIiwgZXJyKTtcbiAgICAgICAgYWxlcnQoXCJObyBoZW1vcyBwb2RpZG8gcHVibGljYXIgdHUgbWVuc2FqZS4gSW50w6ludGFsbyBkZSBudWV2byBlbiB1bm9zIHNlZ3VuZG9zLlwiKTtcbiAgICAgIH0pO1xuICAgICAgc2V0TGFzdE5ld0lkKHJlZi5rZXkpO1xuICAgIH0gZWxzZSB7XG4gICAgICAvKiBNb2RvIGRlbW8gKHNpbiBGaXJlYmFzZSk6IHNlIG1hbnRpZW5lIHPDs2xvIGVuIGVzdGUgbmF2ZWdhZG9yLiAqL1xuICAgICAgY29uc3QgbmV3UG9zdCA9IHsgLi4ucCwgaWQ6IFwidVwiICsgRGF0ZS5ub3coKSwgdHM6IERhdGUubm93KCksIGxpa2VzOiAwIH07XG4gICAgICBzZXRQb3N0cygocHJldikgPT4gW25ld1Bvc3QsIC4uLnByZXZdKTtcbiAgICAgIHNldExhc3ROZXdJZChuZXdQb3N0LmlkKTtcbiAgICB9XG4gICAgc2V0TW9kYWxPcGVuKGZhbHNlKTtcbiAgICBzZXRDb25mZXR0aVNlZWQoRGF0ZS5ub3coKSk7XG4gICAgc2V0Q291bnRlckZsYXNoKHRydWUpO1xuICAgIHNldFRpbWVvdXQoKCkgPT4gc2V0Q291bnRlckZsYXNoKGZhbHNlKSwgNzAwKTtcbiAgICBzZXRUaW1lb3V0KCgpID0+IHtcbiAgICAgIGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKFwiZW5kYWxpYS13YWxsLWFuY2hvclwiKT8uc2Nyb2xsSW50b1ZpZXcoeyBiZWhhdmlvcjogXCJzbW9vdGhcIiwgYmxvY2s6IFwic3RhcnRcIiB9KTtcbiAgICB9LCAyNTApO1xuICB9XG5cbiAgZnVuY3Rpb24gdG9nZ2xlTGlrZShpZCkge1xuICAgIGNvbnN0IHdhc0xpa2VkID0gISFsaWtlc1tpZF07XG4gICAgc2V0TGlrZXMoKHByZXYpID0+ICh7IC4uLnByZXYsIFtpZF06ICF3YXNMaWtlZCB9KSk7XG4gICAgaWYgKGZiRGIpIHtcbiAgICAgIGNvbnN0IHJlZiA9IGZiRGIucmVmKGBtZXNzYWdlcy8ke2lkfS9saWtlc2ApO1xuICAgICAgcmVmLnRyYW5zYWN0aW9uKChjdXJyZW50KSA9PiAoY3VycmVudCB8fCAwKSArICh3YXNMaWtlZCA/IC0xIDogMSkpLmNhdGNoKChlcnIpID0+IHtcbiAgICAgICAgY29uc29sZS53YXJuKFwiW0VuZGFsaWEgUlIuIEhILl0gTm8gc2UgcHVkbyBhY3R1YWxpemFyIGVsIGNvbnRhZG9yIGRlIGxpa2VzOlwiLCBlcnIpO1xuICAgICAgfSk7XG4gICAgfSBlbHNlIHtcbiAgICAgIHNldFBvc3RzKChwcmV2KSA9PiBwcmV2Lm1hcCgocCkgPT4gcC5pZCA9PT0gaWQgPyB7IC4uLnAsIGxpa2VzOiAocC5saWtlcyB8fCAwKSArICh3YXNMaWtlZCA/IC0xIDogMSkgfSA6IHApKTtcbiAgICB9XG4gIH1cblxuICByZXR1cm4gKFxuICAgIDxkaXYgY2xhc3NOYW1lPVwic3RhZ2VcIj5cbiAgICAgIDxIZXJvIG9uT3Blbj17KCkgPT4gc2V0TW9kYWxPcGVuKHRydWUpfSBjb3VudD17cG9zdHMubGVuZ3RofSB0b3RhbExpa2VzPXt0b3RhbExpa2VzfSB1bmlxdWVUZWFtcz17dW5pcXVlVGVhbXN9IGNvdW50ZXJGbGFzaD17Y291bnRlckZsYXNofSAvPlxuICAgICAgeyFGSVJFQkFTRV9DT05GSUdVUkVEICYmIDxTZXR1cEJhbm5lciAvPn1cbiAgICAgIDxkaXYgaWQ9XCJlbmRhbGlhLXdhbGwtYW5jaG9yXCI+PC9kaXY+XG4gICAgICA8c2VjdGlvbiBjbGFzc05hbWU9XCJ3YWxsLXNlY3Rpb25cIj5cbiAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJ3YWxsLWhlYWRlclwiPlxuICAgICAgICAgIDxoMiBjbGFzc05hbWU9XCJ3YWxsLXRpdGxlXCI+XG4gICAgICAgICAgICBNZW5zYWplcyBxdWUgPHNwYW4gY2xhc3NOYW1lPVwiYWNjZW50XCI+bm8gY2FiZW48L3NwYW4+IGVuIHVuIGVtYWlsLlxuICAgICAgICAgIDwvaDI+XG4gICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJ3YWxsLW1ldGFcIj5cbiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiZmlsdGVyLWdyb3VwXCIgcm9sZT1cInRhYmxpc3RcIj5cbiAgICAgICAgICAgICAge1tcbiAgICAgICAgICAgICAgeyBrZXk6IFwicmVjaWVudGVzXCIsIGxhYmVsOiBcIlJlY2llbnRlc1wiIH0sXG4gICAgICAgICAgICAgIHsga2V5OiBcImRlc3RhY2Fkb3NcIiwgbGFiZWw6IFwiRGVzdGFjYWRvc1wiIH0sXG4gICAgICAgICAgICAgIHsga2V5OiBcInRvZG9zXCIsIGxhYmVsOiBcIlRvZG9zXCIgfV0uXG4gICAgICAgICAgICAgIG1hcCgoZikgPT5cbiAgICAgICAgICAgICAgPGJ1dHRvbiBrZXk9e2Yua2V5fSBjbGFzc05hbWU9e1wiZmlsdGVyLWNoaXBcIiArIChmaWx0ZXIgPT09IGYua2V5ID8gXCIgYWN0aXZlXCIgOiBcIlwiKX1cbiAgICAgICAgICAgICAgb25DbGljaz17KCkgPT4gc2V0RmlsdGVyKGYua2V5KX0+e2YubGFiZWx9PC9idXR0b24+XG4gICAgICAgICAgICAgICl9XG4gICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgPC9kaXY+XG5cbiAgICAgICAge2xvYWRpbmcgP1xuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cIndhbGwtbG9hZGluZ1wiPkNhcmdhbmRvIG1lbnNhamVz4oCmPC9kaXY+IDpcbiAgICAgICAgcG9zdHMubGVuZ3RoID09PSAwID9cbiAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJ3YWxsLWVtcHR5LWhlcm9cIj5cbiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiYmlnXCI+4pyN77iPPC9kaXY+XG4gICAgICAgICAgICA8aDM+U8OpIGxhIHByaW1lcmEgcGVyc29uYSBlbiBkZWphciB1biBtZW5zYWplLjwvaDM+XG4gICAgICAgICAgICA8cD5FbCBtdXJvIGVzdMOhIGVzcGVyYW5kby4gVHUgbWVuc2FqZSBhcGFyZWNlcsOhIGFsIGluc3RhbnRlIHBhcmEgZWwgcmVzdG8gZGVsIGVxdWlwby48L3A+XG4gICAgICAgICAgICA8YnV0dG9uIGNsYXNzTmFtZT1cImJ0biBidG4tcHJpbWFyeVwiIG9uQ2xpY2s9eygpID0+IHNldE1vZGFsT3Blbih0cnVlKX0+RXNjcmliaXIgZWwgcHJpbWVyIG1lbnNhamU8L2J1dHRvbj5cbiAgICAgICAgICA8L2Rpdj4gOlxuXG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwid2FsbFwiPlxuICAgICAgICAgICAgPGJ1dHRvbiBjbGFzc05hbWU9XCJwb3N0LWFkZFwiIG9uQ2xpY2s9eygpID0+IHNldE1vZGFsT3Blbih0cnVlKX0+XG4gICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT1cInBsdXNcIj4rPC9zcGFuPlxuICAgICAgICAgICAgICA8c3Bhbj5Bw7FhZGUgdHUgbWVuc2FqZTwvc3Bhbj5cbiAgICAgICAgICAgICAgPHNwYW4gc3R5bGU9e3sgZm9udFdlaWdodDogNDAwLCBmb250U2l6ZTogMTMsIG9wYWNpdHk6IDAuODUgfX0+VGFyZGEgbWVub3MgZGUgdW4gbWludXRvPC9zcGFuPlxuICAgICAgICAgICAgPC9idXR0b24+XG4gICAgICAgICAgICB7ZmlsdGVyZWQubWFwKChwKSA9PlxuICAgICAgICAgIDxQb3N0IGtleT17cC5pZH0gcG9zdD17cH0gcm90PXtyb3RhdGlvbnNbcC5pZF19XG4gICAgICAgICAgaXNOZXc9e3AuaWQgPT09IGxhc3ROZXdJZH0gbGlrZWQ9eyEhbGlrZXNbcC5pZF19XG4gICAgICAgICAgb25MaWtlPXsoKSA9PiB0b2dnbGVMaWtlKHAuaWQpfSAvPlxuICAgICAgICAgICl9XG4gICAgICAgICAgPC9kaXY+XG4gICAgICAgIH1cbiAgICAgIDwvc2VjdGlvbj5cblxuICAgICAge21vZGFsT3BlbiAmJiA8TWVzc2FnZU1vZGFsIG9uQ2xvc2U9eygpID0+IHNldE1vZGFsT3BlbihmYWxzZSl9IG9uU3VibWl0PXthZGRQb3N0fSAvPn1cbiAgICAgIHtjb25mZXR0aVNlZWQgJiYgPENvbmZldHRpIGtleT17Y29uZmV0dGlTZWVkfSBvbkRvbmU9eygpID0+IHNldENvbmZldHRpU2VlZChudWxsKX0gLz59XG4gICAgPC9kaXY+KTtcblxufVxuXG5mdW5jdGlvbiBTZXR1cEJhbm5lcigpIHtcbiAgcmV0dXJuIChcbiAgICA8ZGl2IGNsYXNzTmFtZT1cInNldHVwLWJhbm5lclwiPlxuICAgICAgPHN2ZyB3aWR0aD1cIjIwXCIgaGVpZ2h0PVwiMjBcIiB2aWV3Qm94PVwiMCAwIDI0IDI0XCIgZmlsbD1cIm5vbmVcIiBzdHJva2U9XCJjdXJyZW50Q29sb3JcIiBzdHJva2VXaWR0aD1cIjJcIiBzdHJva2VMaW5lY2FwPVwicm91bmRcIiBzdHJva2VMaW5lam9pbj1cInJvdW5kXCI+XG4gICAgICAgIDxjaXJjbGUgY3g9XCIxMlwiIGN5PVwiMTJcIiByPVwiMTBcIj48L2NpcmNsZT48bGluZSB4MT1cIjEyXCIgeTE9XCI4XCIgeDI9XCIxMlwiIHkyPVwiMTJcIj48L2xpbmU+PGxpbmUgeDE9XCIxMlwiIHkxPVwiMTZcIiB4Mj1cIjEyLjAxXCIgeTI9XCIxNlwiPjwvbGluZT5cbiAgICAgIDwvc3ZnPlxuICAgICAgPGRpdj5cbiAgICAgICAgPGI+TW9kbyBkZW1vOjwvYj4gbG9zIG1lbnNhamVzIHF1ZSBzZSBwdWJsaXF1ZW4gYWhvcmEgc8OzbG8gc2UgdmVyw6FuIGVuIGVzdGUgbmF2ZWdhZG9yLlxuICAgICAgICBQYXJhIHF1ZSBzZSBjb21wYXJ0YW4gZW50cmUgdG9kb3MgbG9zIHZpc2l0YW50ZXMsIHBlZ2EgdHUgY29uZmlnIGRlIEZpcmViYXNlIGVuIGxhIGNvbnN0YW50ZSA8Y29kZT5GSVJFQkFTRV9DT05GSUc8L2NvZGU+IGRlbnRybyBkZWwgYXJjaGl2byBIVE1MIChpbnN0cnVjY2lvbmVzIHBhc28gYSBwYXNvIGVuIGVsIGNvbWVudGFyaW8ganVzdG8gZW5jaW1hKS5cbiAgICAgIDwvZGl2PlxuICAgIDwvZGl2Pik7XG5cbn1cblxuLyogPT09PT09PT09PT09PT09PT09PSBIRVJPID09PT09PT09PT09PT09PT09PT0gKi9cbmZ1bmN0aW9uIEhlcm8oeyBvbk9wZW4sIGNvdW50LCB0b3RhbExpa2VzLCB1bmlxdWVUZWFtcywgY291bnRlckZsYXNoIH0pIHtcbiAgcmV0dXJuIChcbiAgICA8c2VjdGlvbiBjbGFzc05hbWU9XCJoZXJvXCI+XG4gICAgICA8ZGl2PlxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImhlcm8tZXllYnJvd1wiPkTDjUEgSU5URVJOQUNJT05BTCBERSBMT1MgUkVDVVJTT1MgSFVNQU5PUyDCtyAyMCBERSBNQVlPPC9kaXY+XG4gICAgICAgIDxoMSBjbGFzc05hbWU9XCJoZXJvLXRpdGxlXCI+XG4gICAgICAgICAgQ2FydGEgYSA8c3BhbiBjbGFzc05hbWU9XCJhY2NlbnRcIj5SUkhIPC9zcGFuPjogbG8gcXVlIDxzcGFuIGNsYXNzTmFtZT1cImhhbmRcIj5udW5jYTwvc3Bhbj4gbGVzIGRpamlzdGUuXG4gICAgICAgIDwvaDE+XG4gICAgICAgIDxwIGNsYXNzTmFtZT1cImhlcm8tc3ViXCI+XG4gICAgICAgICAgwr9DdcOhbmRvIGZ1ZSBsYSDDumx0aW1hIHZleiBxdWUgYWxndWllbiB0ZSBkaW8gbGFzIGdyYWNpYXM/IFJSSEggZXMgZXNlIGRlcGFydGFtZW50byBxdWUgc2llbXByZSBlc3TDoSBjdWFuZG8gbG8gbmVjZXNpdGFzLCBwZXJvIGFsIHF1ZSBwb2NhcyB2ZWNlcyBlc2NyaWJpbW9zIHBhcmEgZGVjaXIgPGVtPmdyYWNpYXM8L2VtPi5cbiAgICAgICAgPC9wPlxuICAgICAgICA8cCBjbGFzc05hbWU9XCJoZXJvLXN1YlwiIHN0eWxlPXt7IG1hcmdpblRvcDogMCB9fT5cbiAgICAgICAgICBFbiBFbmRhbGlhIHNhYmVtb3MgcXVlIGRldHLDoXMgZGUgY2FkYSBuw7NtaW5hIGNvcnJlY3RhLCBkZSBjYWRhIHByb2Nlc28gZGUgc2VsZWNjacOzbiB5IGRlIGNhZGEgcGxhbiBkZSBmb3JtYWNpw7NuLCBoYXkgcGVyc29uYXMgY3VpZGFuZG8gZGUgcGVyc29uYXMuIEEgbWVudWRvLCBzdSB0cmFiYWpvIGVzIGludmlzaWJsZeKApiBoYXN0YSBxdWUgYWxndWllbiBsZXMgZGEgbGFzIGdyYWNpYXMuXG4gICAgICAgIDwvcD5cbiAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJoZXJvLWN0YS1yb3dcIj5cbiAgICAgICAgICA8YnV0dG9uIGNsYXNzTmFtZT1cImJ0biBidG4tcHJpbWFyeVwiIG9uQ2xpY2s9e29uT3Blbn0+XG4gICAgICAgICAgICA8c3ZnIHdpZHRoPVwiMjBcIiBoZWlnaHQ9XCIyMFwiIHZpZXdCb3g9XCIwIDAgMjQgMjRcIiBmaWxsPVwibm9uZVwiIHN0cm9rZT1cImN1cnJlbnRDb2xvclwiIHN0cm9rZVdpZHRoPVwiMi40XCIgc3Ryb2tlTGluZWNhcD1cInJvdW5kXCIgc3Ryb2tlTGluZWpvaW49XCJyb3VuZFwiPjxwYXRoIGQ9XCJNMTIgMjBoOVwiIC8+PHBhdGggZD1cIk0xNi41IDMuNWEyLjEyMSAyLjEyMSAwIDAgMSAzIDNMNyAxOWwtNCAxIDEtNCAxMi41LTEyLjV6XCIgLz48L3N2Zz5cbiAgICAgICAgICAgIEVzY3JpYmlyIG1pIGNhcnRhXG4gICAgICAgICAgPC9idXR0b24+XG4gICAgICAgICAgPGEgY2xhc3NOYW1lPVwiYnRuIGJ0bi1naG9zdFwiIGhyZWY9XCIjZW5kYWxpYS13YWxsLWFuY2hvclwiPlxuICAgICAgICAgICAgTGVlciBsYXMgY2FydGFzXG4gICAgICAgICAgICA8c3ZnIHdpZHRoPVwiMThcIiBoZWlnaHQ9XCIxOFwiIHZpZXdCb3g9XCIwIDAgMjQgMjRcIiBmaWxsPVwibm9uZVwiIHN0cm9rZT1cImN1cnJlbnRDb2xvclwiIHN0cm9rZVdpZHRoPVwiMi40XCIgc3Ryb2tlTGluZWNhcD1cInJvdW5kXCIgc3Ryb2tlTGluZWpvaW49XCJyb3VuZFwiPjxsaW5lIHgxPVwiNVwiIHkxPVwiMTJcIiB4Mj1cIjE5XCIgeTI9XCIxMlwiIC8+PHBvbHlsaW5lIHBvaW50cz1cIjEyIDUgMTkgMTIgMTIgMTlcIiAvPjwvc3ZnPlxuICAgICAgICAgIDwvYT5cbiAgICAgICAgPC9kaXY+XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiaGVyby1zdGF0c1wiPlxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwic3RhdFwiPlxuICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPXtcInN0YXQtbnVtXCIgKyAoY291bnRlckZsYXNoID8gXCIgY291bnRlci1mbGFzaFwiIDogXCJcIil9Pntjb3VudH08L3NwYW4+XG4gICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9XCJzdGF0LWxhYmVsXCI+Y2FydGFzIGVuIGVsIG11cm88L3NwYW4+XG4gICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJzdGF0LWRpdmlkZXJcIj48L2Rpdj5cbiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInN0YXRcIj5cbiAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT1cInN0YXQtbnVtXCI+e3RvdGFsTGlrZXN9PC9zcGFuPlxuICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPVwic3RhdC1sYWJlbFwiPmNvcmF6b25lcyByZXBhcnRpZG9zPC9zcGFuPlxuICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwic3RhdC1kaXZpZGVyXCI+PC9kaXY+XG4gICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJzdGF0XCI+XG4gICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9XCJzdGF0LW51bVwiPnt1bmlxdWVUZWFtcyB8fCAwfTwvc3Bhbj5cbiAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT1cInN0YXQtbGFiZWxcIj5lcXVpcG9zIHBhcnRpY2lwYW5kbzwvc3Bhbj5cbiAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgPC9kaXY+XG4gICAgICA8L2Rpdj5cbiAgICAgIDxkaXYgY2xhc3NOYW1lPVwiaGVyby1hcnRcIiBhcmlhLWhpZGRlbj5cbiAgICAgICAgPE1lZGFsbGlvbiAvPlxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImRlY28tY2FyZCBncmVlbiBkZWNvLTFcIj5cbiAgICAgICAgICA8ZGl2PlwiR3JhY2lhcyBwb3IgaGFjZXIgZsOhY2lsIGxvIGltcG9zaWJsZS5cIjwvZGl2PlxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwic2lnXCI+4oCUIENhcmxhLCBWZW50YXM8L2Rpdj5cbiAgICAgICAgPC9kaXY+XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiZGVjby1jYXJkIHdoaXRlIGRlY28tMlwiPlxuICAgICAgICAgIDxkaXY+XCJPcyB0ZW5lbW9zIGVuIG1lbnRlIHRvZG8gZWwgYcOxbywgcGVybyBob3kgZW4gYWx0by5cIjwvZGl2PlxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwic2lnXCI+4oCUIERpcmVjY2nDs248L2Rpdj5cbiAgICAgICAgPC9kaXY+XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiZGVjby1jYXJkIHllbGxvdyBkZWNvLTNcIj5cbiAgICAgICAgICA8ZGl2PlwiTsOzbWluYSBwdW50dWFsLCBjYWJlemEgdHJhbnF1aWxhLiBNaWwgZ3JhY2lhcy5cIjwvZGl2PlxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwic2lnXCI+4oCUIEpvcmdlLCBFbmc8L2Rpdj5cbiAgICAgICAgPC9kaXY+XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiZGVjby1jYXJkIGZ1Y3NpYSBkZWNvLTRcIj5cbiAgICAgICAgICA8ZGl2PlwiQSBsYXMgcXVlIGVzY3VjaGFuIGFudGVzIGRlIHJlc3BvbmRlci5cIjwvZGl2PlxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwic2lnXCI+4oCUIEVxdWlwbyBEaXNlw7FvPC9kaXY+XG4gICAgICAgIDwvZGl2PlxuICAgICAgICA8U3BhcmtsZSBjbGFzc05hbWU9XCJzcGFyayBzMVwiIC8+XG4gICAgICAgIDxTcGFya2xlIGNsYXNzTmFtZT1cInNwYXJrIHMyXCIgdHlwZT1cImhlYXJ0XCIgLz5cbiAgICAgICAgPFNwYXJrbGUgY2xhc3NOYW1lPVwic3BhcmsgczNcIiB0eXBlPVwiZG90XCIgLz5cbiAgICAgIDwvZGl2PlxuICAgIDwvc2VjdGlvbj4pO1xuXG59XG5cbmZ1bmN0aW9uIE1lZGFsbGlvbigpIHtcbiAgcmV0dXJuIChcbiAgICA8ZGl2IGNsYXNzTmFtZT1cImhlcm8tbWVkYWxsaW9uXCI+XG4gICAgICA8ZGl2IGNsYXNzTmFtZT1cIm1lZGFsbGlvbi1yaW5nXCI+PC9kaXY+XG4gICAgICA8ZGl2IGNsYXNzTmFtZT1cImhlcm8tbWVkYWxsaW9uLWlubmVyXCI+XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwibWVkYWxsaW9uLWxhYmVsXCI+RMONQSBERSBMT1MgUlJISDwvZGl2PlxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cIm1lZGFsbGlvbi1kYXlcIj4yMDwvZGl2PlxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cIm1lZGFsbGlvbi1tb250aFwiPk1heW88L2Rpdj5cbiAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJtZWRhbGxpb24tbGFiZWxcIj4yMDI2IMK3IGVuZGFsaWE8L2Rpdj5cbiAgICAgIDwvZGl2PlxuICAgIDwvZGl2Pik7XG5cbn1cblxuZnVuY3Rpb24gU3BhcmtsZSh7IGNsYXNzTmFtZSwgdHlwZSA9IFwic3RhclwiIH0pIHtcbiAgaWYgKHR5cGUgPT09IFwiaGVhcnRcIilcbiAgcmV0dXJuIDxzdmcgY2xhc3NOYW1lPXtjbGFzc05hbWV9IHZpZXdCb3g9XCIwIDAgMjQgMjRcIiBmaWxsPVwiY3VycmVudENvbG9yXCI+PHBhdGggZD1cIk0xMiAyMXMtNy00LjM1LTctMTBhNC41IDQuNSAwIDAgMSA4LTIuODRBNC41IDQuNSAwIDAgMSAyMSAxMWMwIDUuNjUtNyAxMC05IDEwelwiIC8+PC9zdmc+O1xuICBpZiAodHlwZSA9PT0gXCJkb3RcIilcbiAgcmV0dXJuIDxzdmcgY2xhc3NOYW1lPXtjbGFzc05hbWV9IHZpZXdCb3g9XCIwIDAgMjQgMjRcIiBmaWxsPVwiY3VycmVudENvbG9yXCI+PGNpcmNsZSBjeD1cIjEyXCIgY3k9XCIxMlwiIHI9XCI2XCIgLz48L3N2Zz47XG4gIHJldHVybiA8c3ZnIGNsYXNzTmFtZT17Y2xhc3NOYW1lfSB2aWV3Qm94PVwiMCAwIDI0IDI0XCIgZmlsbD1cImN1cnJlbnRDb2xvclwiPjxwYXRoIGQ9XCJNMTIgMiAxNCA5bDcgMS41LTUuNSA0LjVMMTcgMjJsLTUtMy01IDMgMS41LTdMMyAxMC41IDEwIDl6XCIgLz48L3N2Zz47XG59XG5cbi8qID09PT09PT09PT09PT09PT09PT0gUE9TVCA9PT09PT09PT09PT09PT09PT09ICovXG5mdW5jdGlvbiBQb3N0KHsgcG9zdCwgcm90LCBpc05ldywgbGlrZWQsIG9uTGlrZSB9KSB7XG4gIHJldHVybiAoXG4gICAgPGFydGljbGUgY2xhc3NOYW1lPXtgcG9zdCAke3Bvc3QuY29sb3J9JHtpc05ldyA/IFwiIGlzLW5ld1wiIDogXCJcIn1gfSBzdHlsZT17eyBcIi0tcm90XCI6IHJvdCB9fT5cbiAgICAgIDxkaXYgY2xhc3NOYW1lPVwicXVvdGUtbWFya1wiPlwiPC9kaXY+XG4gICAgICA8ZGl2IGNsYXNzTmFtZT17XCJwb3N0LW1zZ1wiICsgKHBvc3Quc3R5bGUgPT09IFwiaGFuZFwiID8gXCIgaGFuZHdyaXR0ZW5cIiA6IFwiXCIpfT57cG9zdC5tc2d9PC9kaXY+XG4gICAgICA8ZGl2IGNsYXNzTmFtZT1cInBvc3QtZm9vdGVyXCI+XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwicG9zdC1hdXRob3JcIj5cbiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImF2YXRhclwiPntpbml0aWFscyhwb3N0Lm5hbWUpfTwvZGl2PlxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwicG9zdC1hdXRob3ItaW5mb1wiPlxuICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJwb3N0LW5hbWVcIj57cG9zdC5uYW1lIHx8IFwiQW7Ds25pbW9cIn08L2Rpdj5cbiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwicG9zdC1yb2xlXCI+e1twb3N0LnJvbGUsIHBvc3QuZGVwdF0uZmlsdGVyKEJvb2xlYW4pLmpvaW4oXCIgwrcgXCIpIHx8IHJlbFRpbWUocG9zdC50cyl9PC9kaXY+XG4gICAgICAgICAgPC9kaXY+XG4gICAgICAgIDwvZGl2PlxuICAgICAgICA8YnV0dG9uIGNsYXNzTmFtZT17XCJsaWtlLWJ0blwiICsgKGxpa2VkID8gXCIgbGlrZWRcIiA6IFwiXCIpfSBvbkNsaWNrPXtvbkxpa2V9IGFyaWEtbGFiZWw9XCJNZSBndXN0YVwiPlxuICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT1cImhlYXJ0XCI+e2xpa2VkID8gXCLimaVcIiA6IFwi4pmhXCJ9PC9zcGFuPlxuICAgICAgICAgIDxzcGFuPnsocG9zdC5saWtlcyB8fCAwKSArIChsaWtlZCA/IDEgOiAwKX08L3NwYW4+XG4gICAgICAgIDwvYnV0dG9uPlxuICAgICAgPC9kaXY+XG4gICAgPC9hcnRpY2xlPik7XG5cbn1cblxuLyogPT09PT09PT09PT09PT09PT09PSBNT0RBTCA9PT09PT09PT09PT09PT09PT09ICovXG5mdW5jdGlvbiBNZXNzYWdlTW9kYWwoeyBvbkNsb3NlLCBvblN1Ym1pdCB9KSB7XG4gIGNvbnN0IFttc2csIHNldE1zZ10gPSB1c2VTdGF0ZShcIlwiKTtcbiAgY29uc3QgW25hbWUsIHNldE5hbWVdID0gdXNlU3RhdGUoXCJcIik7XG4gIGNvbnN0IFtkZXB0LCBzZXREZXB0XSA9IHVzZVN0YXRlKFwiXCIpO1xuICBjb25zdCBbcm9sZSwgc2V0Um9sZV0gPSB1c2VTdGF0ZShcIkVtcGxlYWRvL2FcIik7XG4gIGNvbnN0IFtjb2xvciwgc2V0Q29sb3JdID0gdXNlU3RhdGUoXCJjLWdyZWVuXCIpO1xuICBjb25zdCBbc3R5bGUsIHNldFN0eWxlXSA9IHVzZVN0YXRlKFwidHlwZVwiKTtcbiAgY29uc3QgW2Fub24sIHNldEFub25dID0gdXNlU3RhdGUoZmFsc2UpO1xuXG4gIGNvbnN0IGlucHV0UmVmID0gdXNlUmVmKG51bGwpO1xuICB1c2VFZmZlY3QoKCkgPT4ge2lucHV0UmVmLmN1cnJlbnQ/LmZvY3VzKCk7fSwgW10pO1xuXG4gIHVzZUVmZmVjdCgoKSA9PiB7XG4gICAgY29uc3Qgb25LZXkgPSAoZSkgPT4ge2lmIChlLmtleSA9PT0gXCJFc2NhcGVcIikgb25DbG9zZSgpO307XG4gICAgZG9jdW1lbnQuYWRkRXZlbnRMaXN0ZW5lcihcImtleWRvd25cIiwgb25LZXkpO1xuICAgIHJldHVybiAoKSA9PiBkb2N1bWVudC5yZW1vdmVFdmVudExpc3RlbmVyKFwia2V5ZG93blwiLCBvbktleSk7XG4gIH0sIFtvbkNsb3NlXSk7XG5cbiAgY29uc3QgbWF4ID0gMjQwO1xuICBjb25zdCB2YWxpZCA9IG1zZy50cmltKCkubGVuZ3RoID4gMCAmJiBtc2cubGVuZ3RoIDw9IG1heDtcblxuICBmdW5jdGlvbiBoYW5kbGVTdWJtaXQoZSkge1xuICAgIGU/LnByZXZlbnREZWZhdWx0KCk7XG4gICAgaWYgKCF2YWxpZCkgcmV0dXJuO1xuICAgIG9uU3VibWl0KHtcbiAgICAgIG1zZzogbXNnLnRyaW0oKSxcbiAgICAgIG5hbWU6IGFub24gPyBcIkFuw7NuaW1vXCIgOiBuYW1lLnRyaW0oKSB8fCBcIkFuw7NuaW1vXCIsXG4gICAgICByb2xlLFxuICAgICAgZGVwdDogYW5vbiA/IFwiXCIgOiBkZXB0LnRyaW0oKSxcbiAgICAgIGNvbG9yLFxuICAgICAgc3R5bGVcbiAgICB9KTtcbiAgfVxuXG4gIHJldHVybiAoXG4gICAgPGRpdiBjbGFzc05hbWU9XCJtb2RhbC1iYWNrZHJvcFwiIG9uQ2xpY2s9eyhlKSA9PiB7aWYgKGUudGFyZ2V0LmNsYXNzTGlzdC5jb250YWlucyhcIm1vZGFsLWJhY2tkcm9wXCIpKSBvbkNsb3NlKCk7fX0+XG4gICAgICA8Zm9ybSBjbGFzc05hbWU9XCJtb2RhbFwiIG9uU3VibWl0PXtoYW5kbGVTdWJtaXR9PlxuICAgICAgICA8YnV0dG9uIHR5cGU9XCJidXR0b25cIiBjbGFzc05hbWU9XCJtb2RhbC1jbG9zZVwiIG9uQ2xpY2s9e29uQ2xvc2V9IGFyaWEtbGFiZWw9XCJDZXJyYXJcIj7DlzwvYnV0dG9uPlxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cIm1vZGFsLWV5ZWJyb3dcIj5EZWphIHR1IG1lbnNhamU8L2Rpdj5cbiAgICAgICAgPGgyIGNsYXNzTmFtZT1cIm1vZGFsLXRpdGxlXCI+wr9RdcOpIHF1aWVyZXMgZGVjaXJsZXMgaG95PzwvaDI+XG4gICAgICAgIDxwIGNsYXNzTmFtZT1cIm1vZGFsLXN1YlwiPkEgdG9kbyBlbCBlcXVpcG8gZGUgUlIuIEhILiwgYSB1bmEgcGVyc29uYSBjb25jcmV0YSwgbyBhIHF1aWVuIHTDuiBxdWllcmFzLiBMbyB2ZXLDoW4gdG9kb3MgbG9zIGNvbXBhw7Flcm9zIHkgY29tcGHDsWVyYXMgZGUgRW5kYWxpYS48L3A+XG5cbiAgICAgICAgPGRpdiBzdHlsZT17eyBkaXNwbGF5OiBcImZsZXhcIiwganVzdGlmeUNvbnRlbnQ6IFwic3BhY2UtYmV0d2VlblwiLCBhbGlnbkl0ZW1zOiBcImNlbnRlclwiIH19PlxuICAgICAgICAgIDxsYWJlbCBjbGFzc05hbWU9XCJmaWVsZC1sYWJlbFwiIHN0eWxlPXt7IG1hcmdpbjogMCB9fT5UdSBtZW5zYWplPC9sYWJlbD5cbiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInRvZ2dsZS1zdHlsZVwiIGFyaWEtbGFiZWw9XCJFc3RpbG8gZGUgZXNjcml0dXJhXCI+XG4gICAgICAgICAgICA8YnV0dG9uIHR5cGU9XCJidXR0b25cIiBjbGFzc05hbWU9e3N0eWxlID09PSBcInR5cGVcIiA/IFwiYWN0aXZlXCIgOiBcIlwifSBvbkNsaWNrPXsoKSA9PiBzZXRTdHlsZShcInR5cGVcIil9PkltcHJlbnRhPC9idXR0b24+XG4gICAgICAgICAgICA8YnV0dG9uIHR5cGU9XCJidXR0b25cIiBjbGFzc05hbWU9e3N0eWxlID09PSBcImhhbmRcIiA/IFwiYWN0aXZlXCIgOiBcIlwifSBvbkNsaWNrPXsoKSA9PiBzZXRTdHlsZShcImhhbmRcIil9PkEgbWFubzwvYnV0dG9uPlxuICAgICAgICAgIDwvZGl2PlxuICAgICAgICA8L2Rpdj5cbiAgICAgICAgPHRleHRhcmVhIHJlZj17aW5wdXRSZWZ9XG4gICAgICAgIGNsYXNzTmFtZT17XCJmaWVsZC10ZXh0YXJlYVwiICsgKHN0eWxlID09PSBcImhhbmRcIiA/IFwiIGN1cnNpdmVcIiA6IFwiXCIpfVxuICAgICAgICB2YWx1ZT17bXNnfVxuICAgICAgICBvbkNoYW5nZT17KGUpID0+IHNldE1zZyhlLnRhcmdldC52YWx1ZS5zbGljZSgwLCBtYXgpKX1cbiAgICAgICAgcGxhY2Vob2xkZXI9e3N0eWxlID09PSBcImhhbmRcIiA/IFwiR3JhY2lhcyBwb3LigKZcIiA6IFwiRXNjcmliZSBhcXXDrSB0dSBtZW5zYWplIGRlIGdyYXRpdHVkLCB1bmEgYW7DqWNkb3RhIG8gdW5hIGRlZGljYXRvcmlhLlwifVxuICAgICAgICBtYXhMZW5ndGg9e21heH0gLz5cbiAgICAgICAgPGRpdiBzdHlsZT17eyBkaXNwbGF5OiBcImZsZXhcIiwganVzdGlmeUNvbnRlbnQ6IFwic3BhY2UtYmV0d2VlblwiLCBmb250U2l6ZTogMTIsIGNvbG9yOiBcIiM1QTY2NzlcIiwgbWFyZ2luVG9wOiA2IH19PlxuICAgICAgICAgIDxzcGFuPk1hbnTDqW4gZWwgdG9ubyBjw6FsaWRvIHkgcmVzcGV0dW9zby48L3NwYW4+XG4gICAgICAgICAgPHNwYW4gc3R5bGU9e3sgZm9udFZhcmlhbnROdW1lcmljOiBcInRhYnVsYXItbnVtc1wiIH19Pnttc2cubGVuZ3RofSAvIHttYXh9PC9zcGFuPlxuICAgICAgICA8L2Rpdj5cblxuICAgICAgICA8bGFiZWwgY2xhc3NOYW1lPVwiZmllbGQtbGFiZWxcIj7Cv1F1acOpbiBsbyBlc2NyaWJlPzwvbGFiZWw+XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiZmllbGQtcm93XCI+XG4gICAgICAgICAgPGlucHV0IGNsYXNzTmFtZT1cImZpZWxkLWlucHV0XCIgdmFsdWU9e25hbWV9IG9uQ2hhbmdlPXsoZSkgPT4gc2V0TmFtZShlLnRhcmdldC52YWx1ZSl9IHBsYWNlaG9sZGVyPVwiVHUgbm9tYnJlXCIgZGlzYWJsZWQ9e2Fub259IC8+XG4gICAgICAgICAgPGlucHV0IGNsYXNzTmFtZT1cImZpZWxkLWlucHV0XCIgdmFsdWU9e2RlcHR9IG9uQ2hhbmdlPXsoZSkgPT4gc2V0RGVwdChlLnRhcmdldC52YWx1ZSl9IHBsYWNlaG9sZGVyPVwiRXF1aXBvIG8gZGVwYXJ0YW1lbnRvXCIgZGlzYWJsZWQ9e2Fub259IC8+XG4gICAgICAgIDwvZGl2PlxuICAgICAgICA8bGFiZWwgc3R5bGU9e3sgZGlzcGxheTogXCJmbGV4XCIsIGFsaWduSXRlbXM6IFwiY2VudGVyXCIsIGdhcDogOCwgbWFyZ2luVG9wOiAxMCwgZm9udFNpemU6IDEzLCBjb2xvcjogXCIjNUE2Njc5XCIsIGN1cnNvcjogXCJwb2ludGVyXCIgfX0+XG4gICAgICAgICAgPGlucHV0IHR5cGU9XCJjaGVja2JveFwiIGNoZWNrZWQ9e2Fub259IG9uQ2hhbmdlPXsoZSkgPT4gc2V0QW5vbihlLnRhcmdldC5jaGVja2VkKX0gLz5cbiAgICAgICAgICBRdWllcm8gZmlybWFyIGNvbW8gYW7Ds25pbW9cbiAgICAgICAgPC9sYWJlbD5cblxuICAgICAgICA8bGFiZWwgY2xhc3NOYW1lPVwiZmllbGQtbGFiZWxcIj5UdSByb2w8L2xhYmVsPlxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInJvbGVzXCI+XG4gICAgICAgICAge1JPTEVTLm1hcCgocikgPT5cbiAgICAgICAgICA8YnV0dG9uIGtleT17cn0gdHlwZT1cImJ1dHRvblwiIGNsYXNzTmFtZT17XCJyb2xlLWNoaXBcIiArIChyb2xlID09PSByID8gXCIgYWN0aXZlXCIgOiBcIlwiKX0gb25DbGljaz17KCkgPT4gc2V0Um9sZShyKX0+e3J9PC9idXR0b24+XG4gICAgICAgICAgKX1cbiAgICAgICAgPC9kaXY+XG5cbiAgICAgICAgPGxhYmVsIGNsYXNzTmFtZT1cImZpZWxkLWxhYmVsXCI+Q29sb3IgZGUgbGEgdGFyamV0YTwvbGFiZWw+XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiY29sb3JzXCI+XG4gICAgICAgICAge0NPTE9SUy5tYXAoKGMpID0+XG4gICAgICAgICAgPGJ1dHRvbiBrZXk9e2N9IHR5cGU9XCJidXR0b25cIiBjbGFzc05hbWU9e1wiY29sb3Itc3dhdGNoIFwiICsgYyArIChjb2xvciA9PT0gYyA/IFwiIGFjdGl2ZVwiIDogXCJcIil9IG9uQ2xpY2s9eygpID0+IHNldENvbG9yKGMpfSBhcmlhLWxhYmVsPXtcIkNvbG9yIFwiICsgY30gLz5cbiAgICAgICAgICApfVxuICAgICAgICA8L2Rpdj5cblxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cIm1vZGFsLXByZXZpZXdcIiBzdHlsZT17e1xuICAgICAgICAgIGJhY2tncm91bmQ6IGJnRm9yKGNvbG9yKSxcbiAgICAgICAgICBjb2xvcjogY29sb3IgPT09IFwiYy1mdWNzaWFcIiA/IFwiI2ZmZlwiIDogXCIjMEQxQjNEXCJcbiAgICAgICAgfX0+XG4gICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJtb2RhbC1wcmV2aWV3LWxhYmVsXCIgc3R5bGU9e3sgY29sb3I6IGNvbG9yID09PSBcImMtZnVjc2lhXCIgPyBcInJnYmEoMjU1LDI1NSwyNTUsMC43KVwiIDogXCIjNUE2Njc5XCIgfX0+VmlzdGEgcHJldmlhPC9kaXY+XG4gICAgICAgICAgPGRpdiBzdHlsZT17e1xuICAgICAgICAgICAgZm9udEZhbWlseTogc3R5bGUgPT09IFwiaGFuZFwiID8gXCInQ2F2ZWF0JywgY3Vyc2l2ZVwiIDogXCJSb2JvdG8sIHNhbnMtc2VyaWZcIixcbiAgICAgICAgICAgIGZvbnRTaXplOiBzdHlsZSA9PT0gXCJoYW5kXCIgPyAyMiA6IDE1LFxuICAgICAgICAgICAgbGluZUhlaWdodDogc3R5bGUgPT09IFwiaGFuZFwiID8gMS4xNSA6IDEuNSxcbiAgICAgICAgICAgIGZvbnRXZWlnaHQ6IHN0eWxlID09PSBcImhhbmRcIiA/IDYwMCA6IDQwMCxcbiAgICAgICAgICAgIHdoaXRlU3BhY2U6IFwicHJlLXdyYXBcIlxuICAgICAgICAgIH19PlxuICAgICAgICAgICAge21zZyB8fCAoc3R5bGUgPT09IFwiaGFuZFwiID8gXCJBcXXDrSBhcGFyZWNlcsOhIHR1IG1lbnNhamUgYSBtYW5v4oCmXCIgOiBcIkFxdcOtIGFwYXJlY2Vyw6EgdHUgbWVuc2FqZS5cIil9XG4gICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgPGRpdiBzdHlsZT17eyBmb250U2l6ZTogMTIsIG1hcmdpblRvcDogMTAsIG9wYWNpdHk6IDAuNywgZm9udFdlaWdodDogNjAwIH19PlxuICAgICAgICAgICAg4oCUIHthbm9uID8gXCJBbsOzbmltb1wiIDogbmFtZSB8fCBcIlR1IG5vbWJyZVwifXshYW5vbiAmJiBkZXB0ID8gYCDCtyAke2RlcHR9YCA6IFwiXCJ9XG4gICAgICAgICAgPC9kaXY+XG4gICAgICAgIDwvZGl2PlxuXG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwibW9kYWwtYWN0aW9uc1wiPlxuICAgICAgICAgIDxidXR0b24gdHlwZT1cImJ1dHRvblwiIGNsYXNzTmFtZT1cImJ0bi1tb2RhbC1jYW5jZWxcIiBvbkNsaWNrPXtvbkNsb3NlfT5DYW5jZWxhcjwvYnV0dG9uPlxuICAgICAgICAgIDxidXR0b24gdHlwZT1cInN1Ym1pdFwiIGNsYXNzTmFtZT1cImJ0bi1tb2RhbC1zdWJtaXRcIiBkaXNhYmxlZD17IXZhbGlkfT5QdWJsaWNhciBlbiBlbCBtdXJvPC9idXR0b24+XG4gICAgICAgIDwvZGl2PlxuICAgICAgPC9mb3JtPlxuICAgIDwvZGl2Pik7XG5cbn1cblxuLyogPT09PT09PT09PT09PT09PT09PSBDT05GRVRUSSA9PT09PT09PT09PT09PT09PT09ICovXG5mdW5jdGlvbiBDb25mZXR0aSh7IG9uRG9uZSB9KSB7XG4gIGNvbnN0IHBpZWNlcyA9IHVzZU1lbW8oKCkgPT4ge1xuICAgIGNvbnN0IHBhbGV0dGUgPSBbXCIjODdFNjk3XCIsIFwiI0ZGQ0MwMFwiLCBcIiNGRjAwNjZcIiwgXCIjRkZGRkZGXCIsIFwiIzZFOTFGQ1wiXTtcbiAgICByZXR1cm4gQXJyYXkuZnJvbSh7IGxlbmd0aDogOTAgfSwgKF8sIGkpID0+ICh7XG4gICAgICBpZDogaSxcbiAgICAgIGxlZnQ6IE1hdGgucmFuZG9tKCkgKiAxMDAsXG4gICAgICB0eDogTWF0aC5yYW5kb20oKSAqIDIwMCAtIDEwMCArIFwicHhcIixcbiAgICAgIHI6IE1hdGgucmFuZG9tKCkgKiAxMDgwIC0gMzYwICsgXCJkZWdcIixcbiAgICAgIGR1cjogMS44ICsgTWF0aC5yYW5kb20oKSAqIDEuNiArIFwic1wiLFxuICAgICAgZDogTWF0aC5yYW5kb20oKSAqIDAuNCArIFwic1wiLFxuICAgICAgYmc6IHBhbGV0dGVbaSAlIHBhbGV0dGUubGVuZ3RoXSxcbiAgICAgIHc6IDYgKyBNYXRoLnJhbmRvbSgpICogOCxcbiAgICAgIGg6IDggKyBNYXRoLnJhbmRvbSgpICogMTAsXG4gICAgICBicjogTWF0aC5yYW5kb20oKSA+IDAuNSA/IFwiMnB4XCIgOiBcIjUwJVwiXG4gICAgfSkpO1xuICB9LCBbXSk7XG4gIHVzZUVmZmVjdCgoKSA9PiB7XG4gICAgY29uc3QgdCA9IHNldFRpbWVvdXQob25Eb25lLCAzMjAwKTtcbiAgICByZXR1cm4gKCkgPT4gY2xlYXJUaW1lb3V0KHQpO1xuICB9LCBbb25Eb25lXSk7XG4gIHJldHVybiAoXG4gICAgPGRpdiBjbGFzc05hbWU9XCJjb25mZXR0aVwiIGFyaWEtaGlkZGVuPlxuICAgICAge3BpZWNlcy5tYXAoKHApID0+XG4gICAgICA8c3BhbiBrZXk9e3AuaWR9IHN0eWxlPXt7XG4gICAgICAgIGxlZnQ6IHAubGVmdCArIFwiJVwiLFxuICAgICAgICBcIi0tdHhcIjogcC50eCwgXCItLXJcIjogcC5yLCBcIi0tZHVyXCI6IHAuZHVyLCBcIi0tZFwiOiBwLmQsXG4gICAgICAgIGJhY2tncm91bmQ6IHAuYmcsIHdpZHRoOiBwLncsIGhlaWdodDogcC5oLCBib3JkZXJSYWRpdXM6IHAuYnJcbiAgICAgIH19IC8+XG4gICAgICApfVxuICAgIDwvZGl2Pik7XG5cbn1cblxuUmVhY3RET00uY3JlYXRlUm9vdChkb2N1bWVudC5nZXRFbGVtZW50QnlJZChcImVuZGFsaWEtcnJoaC1hcHBcIikpLnJlbmRlcig8QXBwIC8+KTtcbiJdLCJtYXBwaW5ncyI6Ijs7Ozs7QUFHQSxNQUFNO0VBQUVBLFFBQVE7RUFBRUMsU0FBUztFQUFFQyxNQUFNO0VBQUVDO0FBQVEsQ0FBQyxHQUFHQyxLQUFLOztBQUV0RDtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSxNQUFNQyxlQUFlLEdBQUc7RUFDdEJDLE1BQU0sRUFBRSx5Q0FBeUM7RUFDakRDLFVBQVUsRUFBRSxpQ0FBaUM7RUFDN0NDLFdBQVcsRUFBRSx3RUFBd0U7RUFDckZDLFNBQVMsRUFBRTtBQUNiLENBQUM7QUFFRCxNQUFNQyxtQkFBbUIsR0FBRyxDQUFDTCxlQUFlLENBQUNDLE1BQU0sQ0FBQ0ssVUFBVSxDQUFDLFdBQVcsQ0FBQyxJQUFJLENBQUMsQ0FBQ04sZUFBZSxDQUFDQyxNQUFNOztBQUV2RztBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7O0FBRUEsSUFBSU0sSUFBSSxHQUFHLElBQUk7QUFDZixJQUFJQyxhQUFhLEdBQUcsSUFBSTtBQUN4QixJQUFJSCxtQkFBbUIsSUFBSSxPQUFPSSxRQUFRLEtBQUssV0FBVyxFQUFFO0VBQzFELElBQUk7SUFDRixJQUFJLENBQUNBLFFBQVEsQ0FBQ0MsSUFBSSxDQUFDQyxNQUFNLEVBQUVGLFFBQVEsQ0FBQ0csYUFBYSxDQUFDWixlQUFlLENBQUM7SUFDbEVPLElBQUksR0FBR0UsUUFBUSxDQUFDSSxRQUFRLENBQUMsQ0FBQztJQUMxQkwsYUFBYSxHQUFHRCxJQUFJLENBQUNPLEdBQUcsQ0FBQyxVQUFVLENBQUM7RUFDdEMsQ0FBQyxDQUFDLE9BQU9DLENB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</script></head>
+<body>
+
+<!-- ============================================================
+     INICIO BLOQUE EMBEBIBLE — copia desde aquí hasta el cierre
+     "FIN BLOQUE EMBEBIBLE" para pegar dentro de la web de Endalia.
+     También necesitas el <style> de arriba y los <link> de fuentes.
+     ============================================================ -->
+<div id="endalia-rrhh-app"><div class="stage"><section class="hero"><div><div class="hero-eyebrow">DÍA INTERNACIONAL DE LOS RECURSOS HUMANOS · 20 DE MAYO</div><h1 class="hero-title">Carta a <span class="accent">RRHH</span>: lo que <span class="hand">nunca</span> les dijiste.</h1><p class="hero-sub">¿Cuándo fue la última vez que alguien te dio las gracias? RRHH es ese departamento que siempre está cuando lo necesitas, pero al que pocas veces escribimos para decir <em>gracias</em>.</p><p class="hero-sub" style="margin-top: 0px;">En Endalia sabemos que detrás de cada nómina correcta, de cada proceso de selección y de cada plan de formación, hay personas cuidando de personas. A menudo, su trabajo es invisible… hasta que alguien les da las gracias.</p><div class="hero-cta-row"><button class="btn btn-primary"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"></path><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4 12.5-12.5z"></path></svg>Escribir mi carta</button><a class="btn btn-ghost" href="https://www.endalia.com/wp-content/uploads/landingcartarrhh-4.html#endalia-wall-anchor">Leer las cartas<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a></div><div class="hero-stats"><div class="stat"><span class="stat-num">28</span><span class="stat-label">cartas en el muro</span></div><div class="stat-divider"></div><div class="stat"><span class="stat-num">32</span><span class="stat-label">corazones repartidos</span></div><div class="stat-divider"></div><div class="stat"><span class="stat-num">11</span><span class="stat-label">equipos participando</span></div></div></div><div class="hero-art" aria-hidden="true"><div class="hero-medallion"><div class="medallion-ring"></div><div class="hero-medallion-inner"><div class="medallion-label">DÍA DE LOS RRHH</div><div class="medallion-day">20</div><div class="medallion-month">Mayo</div><div class="medallion-label">2026 · endalia</div></div></div><div class="deco-card green deco-1"><div>"Gracias por hacer fácil lo imposible."</div><div class="sig">— Carla, Ventas</div></div><div class="deco-card white deco-2"><div>"Os tenemos en mente todo el año, pero hoy en alto."</div><div class="sig">— Dirección</div></div><div class="deco-card yellow deco-3"><div>"Nómina puntual, cabeza tranquila. Mil gracias."</div><div class="sig">— Jorge, Eng</div></div><div class="deco-card fucsia deco-4"><div>"A las que escuchan antes de responder."</div><div class="sig">— Equipo Diseño</div></div><svg class="spark s1" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2 14 9l7 1.5-5.5 4.5L17 22l-5-3-5 3 1.5-7L3 10.5 10 9z"></path></svg><svg class="spark s2" viewBox="0 0 24 24" fill="currentColor"><path d="M12 21s-7-4.35-7-10a4.5 4.5 0 0 1 8-2.84A4.5 4.5 0 0 1 21 11c0 5.65-7 10-9 10z"></path></svg><svg class="spark s3" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="6"></circle></svg></div></section><div id="endalia-wall-anchor"></div><section class="wall-section"><div class="wall-header"><h2 class="wall-title">Mensajes que <span class="accent">no caben</span> en un email.</h2><div class="wall-meta"><div class="filter-group" role="tablist"><button class="filter-chip active">Recientes</button><button class="filter-chip">Destacados</button><button class="filter-chip">Todos</button></div></div></div><div class="wall"><button class="post-add"><span class="plus">+</span><span>Añade tu mensaje</span><span style="font-weight: 400; font-size: 13px; opacity: 0.85;">Tarda menos de un minuto</span></button><article class="post c-green" style="--rot: -0.57deg;"><div class="quote-mark">"</div><div class="post-msg">¡Muchas gracias por vuestra acogida! Sin vosotros la entrada en la empresa hubiera sido mucho más complicada ♥️</div><div class="post-footer"><div class="post-author"><div class="avatar">J</div><div class="post-author-info"><div class="post-name">Jon</div><div class="post-role">Empleado/a · Marketing</div></div></div><button class="like-btn liked" aria-label="Me gusta"><span class="heart">♥</span><span>2</span></button></div></article><article class="post c-yellow" style="--rot: 0.20deg;"><div class="quote-mark">"</div><div class="post-msg">Departamento necesario en cada organización. Ponen orden cuando el resto esta ocupado en producir. 
+Da gusto encontrar personas dentro de RRHH que miran también por el bienestar de los empleados y no solo a los Business Plan económicos.</div><div class="post-footer"><div class="post-author"><div class="avatar">·</div><div class="post-author-info"><div class="post-name">Anónimo</div><div class="post-role">Empleado/a</div></div></div><button class="like-btn" aria-label="Me gusta"><span class="heart">♡</span><span>0</span></button></div></article><article class="post c-fucsia" style="--rot: -0.28deg;"><div class="quote-mark">"</div><div class="post-msg">En un día como hoy, solo puedo dar las gracias.
+Porque detrás de cada proceso, cada oportunidad y cada decisión, hay personas cuidando personas.
+
+Feliz Día Internacional de RRHH a quienes trabajamos con empatía, humanidad y propósito.</div><div class="post-footer"><div class="post-author"><div class="avatar">♡A</div><div class="post-author-info"><div class="post-name">♡ Ana ZM</div><div class="post-role">RR. HH. · RRHH</div></div></div><button class="like-btn" aria-label="Me gusta"><span class="heart">♡</span><span>0</span></button></div></article><article class="post c-green" style="--rot: -0.24deg;"><div class="quote-mark">"</div><div class="post-msg">Gracias por estar cuando más lo necesitábamos: desde nuestra incorporación hasta nuestra despedida. Gracias por el motor invisible de las organizaciones</div><div class="post-footer"><div class="post-author"><div class="avatar">·</div><div class="post-author-info"><div class="post-name">Anónimo</div><div class="post-role">Empleado/a</div></div></div><button class="like-btn" aria-label="Me gusta"><span class="heart">♡</span><span>1</span></button></div></article><article class="post c-cream" style="--rot: -1.22deg;"><div class="quote-mark">"</div><div class="post-msg handwritten">En RRHH el espíritu es el del compromiso con las personas, el afán de servicio dando utilidad a todas las herramientas posibles para facilitar el día a día de cada función, cada necesidad y cada situación. Porque cada persona es un mundo...</div><div class="post-footer"><div class="post-author"><div class="avatar">S</div><div class="post-author-info"><div class="post-name">Silvia</div><div class="post-role">RR. HH. · RRHH WFS SATS</div></div></div><button class="like-btn" aria-label="Me gusta"><span class="heart">♡</span><span>0</span></button></div></article><article class="post c-green" style="--rot: 1.70deg;"><div class="quote-mark">"</div><div class="post-msg">Hola,
+Me encanta esta oportunidad para dar las gracias, puesto que estoy inmensamente agradecida del trabajo increíble y humano que realizan mis compañeros de RRHH. Gracias a ellos hoy tengo el puesto que tengo, aparte de que siempre ayudan</div><div class="post-footer"><div class="post-author"><div class="avatar">EM</div><div class="post-author-info"><div class="post-name">Ester Montoya</div><div class="post-role">Empleado/a · Oncología Radioterápica</div></div></div><button class="like-btn" aria-label="Me gusta"><span class="heart">♡</span><span>0</span></button></div></article><article class="post c-fucsia" style="--rot: 1.90deg;"><div class="quote-mark">"</div><div class="post-msg">Agradezco a mi equipo de RRHH el haberme ayudado en más de 1 ocasión comprometida y complicada, así como el haberme acogido y dado la oportunidad de formar parte de esta aventura. ¡Gracias!</div><div class="post-footer"><div class="post-author"><div class="avatar">·</div><div class="post-author-info"><div class="post-name">Anónimo</div><div class="post-role">Empleado/a</div></div></div><button class="like-btn" aria-label="Me gusta"><span class="heart">♡</span><span>1</span></button></div></article><article class="post c-green" style="--rot: -0.42deg;"><div class="quote-mark">"</div><div class="post-msg">cuidamos, informamos, formamos, asesoramos, orientamos, aconsejamos, acompañamos a todo el personal sin importarnos su sexo, la raza, la orientación sexual, su religión y sin esperar un gracias... Pues aquí tenéis un GRACIAS compañeros/as!!</div><div class="post-footer"><div class="post-author"><div class="avatar">·</div><div class="post-author-info"><div class="post-name">Anónimo</div><div class="post-role">Otro · RRHH</div></div></div><button class="like-btn" aria-label="Me gusta"><span class="heart">♡</span><span>1</span></button></div></article><article class="post c-green" style="--rot: -0.26deg;"><div class="quote-mark">"</div><div class="post-msg handwritten">Somos el mejor equipo del mundo, no tengo dudas :)</div><div class="post-footer"><div class="post-author"><div class="avatar">:</div><div class="post-author-info"><div class="post-name">:)</div><div class="post-role">RR. HH. · :)</div></div></div><button class="like-btn" aria-label="Me gusta"><span class="heart">♡</span><span>0</span></button></div></article><article class="post c-green" style="--rot: 1.63deg;"><div class="quote-mark">"</div><div class="post-msg handwritten">Gracias por dar el paso de incorporarte en el equipo. Agradezco todo el esfuerzo que realizas y la búsqueda de ir mejorando día a día. Ha sido un año intenso, sin tu colaboración no hubiera sido posible.
+Seguimos con energía para avanzar</div><div class="post-footer"><div class="post-author"><div class="avatar">R</div><div class="post-author-info"><div class="post-name">Rocío</div><div class="post-role">Dirección · Directora Gerente</div></div></div><button class="like-btn" aria-label="Me gusta"><span class="heart">♡</span><span>0</span></button></div></article><article class="post c-green" style="--rot: -1.00deg;"><div class="quote-mark">"</div><div class="post-msg">Mi agradecimiento y reconocimiento a todo mi equipo de Recursos Humanos por respaldarme, acompañarme en los momentos duros, implicarse en todos nuestros Proyectos con pasión y, sobre todo, por hacer crecer como líder.</div><div class="post-footer"><div class="post-author"><div class="avatar">·</div><div class="post-author-info"><div class="post-name">Anónimo</div><div class="post-role">Dirección</div></div></div><button class="like-btn" aria-label="Me gusta"><span class="heart">♡</span><span>0</span></button></div></article><article class="post c-green" style="--rot: -0.34deg;"><div class="quote-mark">"</div><div class="post-msg">No sabía todo el trabajo que hay en People and Culture hasta que he entrado.
+Gracias a esas personas que confiaron en mí cuando ni yo mismo lo hacía, y, sobre todo, a aquellas que ponen en el centro a las personas y buscan su bienestar</div><div class="post-footer"><div class="post-author"><div class="avatar">ÁZ</div><div class="post-author-info"><div class="post-name">Álvaro Z.</div><div class="post-role">RR. HH. · People and Culture</div></div></div><button class="like-btn" aria-label="Me gusta"><span class="heart">♡</span><span>3</span></button></div></article><article class="post c-green" style="--rot: 0.85deg;"><div class="quote-mark">"</div><div class="post-msg">Este es mi mensaje de agradecimiento a esos profesionales que me ayudaron en un momento clave y que hicieron en el dia a dia , en las empresas en las que he trabajado sean un lugar mejor tanto en lo profesional como humano
+
+DEJA TU MENSAJE</div><div class="post-footer"><div class="post-author"><div class="avatar">AS</div><div class="post-author-info"><div class="post-name">Adela Sanchez</div><div class="post-role">Empleado/a · Profesional ventas export y logistica</div></div></div><button class="like-btn" aria-label="Me gusta"><span class="heart">♡</span><span>1</span></button></div></article><article class="post c-sky" style="--rot: -1.96deg;"><div class="quote-mark">"</div><div class="post-msg handwritten">Muchas gracias a los que nos cuidan y buscan lo mejor dentro de las organizaciones</div><div class="post-footer"><div class="post-author"><div class="avatar">·</div><div class="post-author-info"><div class="post-name">Anónimo</div><div class="post-role">Empleado/a</div></div></div><button class="like-btn" aria-label="Me gusta"><span class="heart">♡</span><span>1</span></button></div></article><article class="post c-sky" style="--rot: 0.77deg;"><div class="quote-mark">"</div><div class="post-msg handwritten">Gracias a esté departamento que es la parte más importante de una empresa.se lo agrace una anónima que quiso formar parte de su equipo por tener unas buenas referencias pero eso no es importante lo importante es su labor y su buen trabajo.</div><div class="post-footer"><div class="post-author"><div class="avatar">F</div><div class="post-author-info"><div class="post-name">Faustina</div><div class="post-role">Empleado/a · Aspirante.</div></div></div><button class="like-btn" aria-label="Me gusta"><span class="heart">♡</span><span>1</span></button></div></article><article class="post c-green" style="--rot: 0.81deg;"><div class="quote-mark">"</div><div class="post-msg handwritten">Muchas gracias por todo vuestro esfuerzo. Sin él no sería posible conseguir los objetivos propuestos. Aunque a veces pueda parecer un trabajo ingrato, es el verdadero alma del crecimiento de la empresa. Un fuerte abrazo</div><div class="post-footer"><div class="post-author"><div class="avatar">JA</div><div class="post-author-info"><div class="post-name">José Antonio</div><div class="post-role">Empleado/a · Jurídicas</div></div></div><button class="like-btn" aria-label="Me gusta"><span class="heart">♡</span><span>1</span></button></div></article><article class="post c-fucsia" style="--rot: 0.33deg;"><div class="quote-mark">"</div><div class="post-msg handwritten">Detrás de cada 'bienvenido a la empresa', cada evento chulísimo, cada asalto para saber cuándo cobramos y cada problema resuelto antes de que te enteres... está RRHH. Os vemos. Os valoramos. Os queremos (casi tanto como al viernes) &lt;3</div><div class="post-footer"><div class="post-author"><div class="avatar">A</div><div class="post-author-info"><div class="post-name">A</div><div class="post-role">Empleado/a</div></div></div><button class="like-btn" aria-label="Me gusta"><span class="heart">♡</span><span>2</span></button></div></article><article class="post c-yellow" style="--rot: 1.86deg;"><div class="quote-mark">"</div><div class="post-msg">Un GRACIAS enorme al equipo de RRHH por todo lo que hacéis (y por lo que no se ve también)!</div><div class="post-footer"><div class="post-author"><div class="avatar">·</div><div class="post-author-info"><div class="post-name">Anónimo</div><div class="post-role">Empleado/a</div></div></div><button class="like-btn" aria-label="Me gusta"><span class="heart">♡</span><span>5</span></button></div></article><article class="post c-sky" style="--rot: 1.25deg;"><div class="quote-mark">"</div><div class="post-msg">Gracias por estar!!!!!</div><div class="post-footer"><div class="post-author"><div class="avatar">·</div><div class="post-author-info"><div class="post-name">Anónimo</div><div class="post-role">Empleado/a</div></div></div><button class="like-btn" aria-label="Me gusta"><span class="heart">♡</span><span>0</span></button></div></article><article class="post c-yellow" style="--rot: 0.48deg;"><div class="quote-mark">"</div><div class="post-msg">Para quienes llegamos a la empresa, sois el primer contacto y una parte clave en el proceso de incorporación. Gracias por facilitar la adaptación y por contribuir a que la decisión de formar parte de Endalia sea tan positiva.</div><div class="post-footer"><div class="post-author"><div class="avatar">A</div><div class="post-author-info"><div class="post-name">Alex</div><div class="post-role">Empleado/a · Tech</div></div></div><button class="like-btn" aria-label="Me gusta"><span class="heart">♡</span><span>1</span></button></div></article><article class="post c-green" style="--rot: 0.17deg;"><div class="quote-mark">"</div><div class="post-msg">Gràcies per ser-hi sempre que cal a l'empresa i als treballadors</div><div class="post-footer"><div class="post-author"><div class="avatar">·</div><div class="post-author-info"><div class="post-name">Anónimo</div><div class="post-role">Empleado/a</div></div></div><button class="like-btn" aria-label="Me gusta"><span class="heart">♡</span><span>0</span></button></div></article><article class="post c-green" style="--rot: -1.70deg;"><div class="quote-mark">"</div><div class="post-msg">Gracias por cuidar cada detalle. En un mundo donde lo más sencillo es generalizar, vosotros os aseguráis de que cada uno nos sintamos únicos.</div><div class="post-footer"><div class="post-author"><div class="avatar">·</div><div class="post-author-info"><div class="post-name">Anónimo</div><div class="post-role">Empleado/a</div></div></div><button class="like-btn" aria-label="Me gusta"><span class="heart">♡</span><span>2</span></button></div></article><article class="post c-sky" style="--rot: -0.31deg;"><div class="quote-mark">"</div><div class="post-msg">Siendo de RRHH sé lo solitario y olvidado que puede ser este departamento. Pero para mis compañeras y compañeros, que sepáis que sin vuestro arduo trabajo, las empresas no funcionarían por sí solas. GRACIAS por hacer lo que hacemos!</div><div class="post-footer"><div class="post-author"><div class="avatar">·</div><div class="post-author-info"><div class="post-name">Anónimo</div><div class="post-role">RR. HH. · RRHH</div></div></div><button class="like-btn" aria-label="Me gusta"><span class="heart">♡</span><span>3</span></button></div></article><article class="post c-fucsia" style="--rot: -0.16deg;"><div class="quote-mark">"</div><div class="post-msg handwritten">Feliz dia a la mejor profesional de RRHH , por todos los fuegos que has apagado y por muchos audios mas contando los dramas de la ofi!!</div><div class="post-footer"><div class="post-author"><div class="avatar">MG</div><div class="post-author-info"><div class="post-name">Melany G</div><div class="post-role">RR. HH.</div></div></div><button class="like-btn" aria-label="Me gusta"><span class="heart">♡</span><span>0</span></button></div></article><article class="post c-green" style="--rot: 0.50deg;"><div class="quote-mark">"</div><div class="post-msg">Los Reyes Magos no son los padres, muchas veces son RRHH. Ponen la oreja para escuchar tus dudas; contribuyen a mantener un equilibrio sostenido en las locuras que son las empresas y te regalan ayuda siempre que está en su mano. Gracias.</div><div class="post-footer"><div class="post-author"><div class="avatar">I</div><div class="post-author-info"><div class="post-name">Irene</div><div class="post-role">Dirección · Marketing</div></div></div><button class="like-btn" aria-label="Me gusta"><span class="heart">♡</span><span>3</span></button></div></article><article class="post c-yellow" style="--rot: -0.99deg;"><div class="quote-mark">"</div><div class="post-msg handwritten">Gracias por la infinita paciencia y los infinitos cafés que nos reviven cada día.</div><div class="post-footer"><div class="post-author"><div class="avatar">A</div><div class="post-author-info"><div class="post-name">Alba</div><div class="post-role">Empleado/a</div></div></div><button class="like-btn" aria-label="Me gusta"><span class="heart">♡</span><span>1</span></button></div></article><article class="post c-sky" style="--rot: -1.40deg;"><div class="quote-mark">"</div><div class="post-msg">¡Gracias por la paciencia infinita con mis dudas de nómina!</div><div class="post-footer"><div class="post-author"><div class="avatar">J</div><div class="post-author-info"><div class="post-name">José</div><div class="post-role">Manager</div></div></div><button class="like-btn liked" aria-label="Me gusta"><span class="heart">♥</span><span>4</span></button></div></article><article class="post c-green" style="--rot: 0.01deg;"><div class="quote-mark">"</div><div class="post-msg">Gracias por vuestra cercanía, habéis logrado que me sienta en casa desde el primer minuto.</div><div class="post-footer"><div class="post-author"><div class="avatar">·</div><div class="post-author-info"><div class="post-name">Anónimo</div><div class="post-role">Empleado/a</div></div></div><button class="like-btn" aria-label="Me gusta"><span class="heart">♡</span><span>1</span></button></div></article></div></section></div></div>
+
+<!-- React + Babel: requeridos para que el bloque funcione. -->
+<script src="./Día de los Recursos Humanos · Endalia_files/react.production.min.js.descarga" crossorigin="anonymous"></script>
+<script src="./Día de los Recursos Humanos · Endalia_files/react-dom.production.min.js.descarga" crossorigin="anonymous"></script>
+<script src="./Día de los Recursos Humanos · Endalia_files/babel.min.js.descarga" crossorigin="anonymous"></script>
+
+<!-- Firebase Realtime Database (almacén compartido en tiempo real). -->
+<script src="./Día de los Recursos Humanos · Endalia_files/firebase-app-compat.js.descarga"></script>
+<script src="./Día de los Recursos Humanos · Endalia_files/firebase-database-compat.js.descarga"></script>
+
+<script type="text/babel" data-presets="react">
+
+
+const { useState, useEffect, useRef, useMemo } = React;
+
+/* ============================================================
+   CONFIGURACIÓN DE FIREBASE
+   ------------------------------------------------------------
+   1. Entra en https://console.firebase.google.com y crea un
+      proyecto nuevo (p.ej. "endalia-dia-rrhh"). 2 minutos.
+   2. En el menú lateral, ve a "Build > Realtime Database" y
+      pulsa "Create database". Elige región europe-west1 y
+      arráncala en "test mode" (lectura/escritura abiertas).
+   3. En "Project settings > General > Your apps" añade una
+      app web (icono </>) y copia su SDK config.
+   4. Pega los valores AQUí abajo (basta apiKey y databaseURL):
+   ============================================================ */
+const FIREBASE_CONFIG = {
+  apiKey: "AIzaSyAK0S6UdJDj4MXzPrZFtNmdciXTTmnaMAE",
+  authDomain: "landing-diarrhh.firebaseapp.com",
+  databaseURL: "https://landing-diarrhh-default-rtdb.europe-west1.firebasedatabase.app",
+  projectId: "landing-diarrhh"
+};
+
+const FIREBASE_CONFIGURED = !FIREBASE_CONFIG.apiKey.startsWith("PEGA_AQUI") && !!FIREBASE_CONFIG.apiKey;
+
+/* Reglas de seguridad recomendadas en Realtime Database:
+   {
+     "rules": {
+       "messages": {
+         ".read":  true,
+         ".write": true,
+         "$id": {
+           ".validate": "newData.hasChildren(['msg','name','color','style','ts'])",
+           "msg":  { ".validate": "newData.isString() && newData.val().length <= 240" },
+           "name": { ".validate": "newData.isString() && newData.val().length <= 60" },
+           "dept": { ".validate": "newData.isString() && newData.val().length <= 60" },
+           "role": { ".validate": "newData.isString() && newData.val().length <= 30" },
+           "likes":{ ".validate": "newData.isNumber()" }
+         }
+       }
+     }
+   }
+*/
+
+let fbDb = null;
+let fbMessagesRef = null;
+if (FIREBASE_CONFIGURED && typeof firebase !== "undefined") {
+  try {
+    if (!firebase.apps.length) firebase.initializeApp(FIREBASE_CONFIG);
+    fbDb = firebase.database();
+    fbMessagesRef = fbDb.ref("messages");
+  } catch (e) {
+    console.error("[Endalia RR. HH.] Error inicializando Firebase:", e);
+  }
+}
+
+const LIKES_KEY = "endalia-rrhh-likes-v1";
+
+const COLORS = ["c-white", "c-green", "c-yellow", "c-fucsia", "c-sky", "c-cream"];
+const ROLES = ["Empleado/a", "Manager", "RR. HH.", "Dirección", "Otro"];
+
+function initials(name) {
+  if (!name || name.toLowerCase() === "anónimo" || name.toLowerCase() === "anonimo") return "·";
+  return name.trim().split(/\s+/).slice(0, 2).map((s) => s[0]?.toUpperCase() || "").join("");
+}
+
+function relTime(ts) {
+  const diff = Date.now() - ts;
+  const m = Math.floor(diff / 60000);
+  if (m < 1) return "ahora mismo";
+  if (m < 60) return `hace ${m} min`;
+  const h = Math.floor(m / 60);
+  if (h < 24) return `hace ${h} h`;
+  const d = Math.floor(h / 24);
+  return `hace ${d} d`;
+}
+
+function randomRotation() {
+  return (Math.random() * 4 - 2).toFixed(2) + "deg";
+}
+
+function bgFor(c) {
+  return {
+    "c-white": "#FFFFFF",
+    "c-green": "#87E697",
+    "c-yellow": "#FFCC00",
+    "c-fucsia": "#FF0066",
+    "c-sky": "#DDE7FF",
+    "c-cream": "#F6F4EF"
+  }[c] || "#FFFFFF";
+}
+
+/* =================== APP =================== */
+function App() {
+  const [posts, setPosts] = useState([]);
+  const [loading, setLoading] = useState(FIREBASE_CONFIGURED);
+  const [likes, setLikes] = useState(() => {
+    try {
+      const raw = localStorage.getItem(LIKES_KEY);
+      if (raw) return JSON.parse(raw);
+    } catch (e) {}
+    return {};
+  });
+  const [filter, setFilter] = useState("recientes");
+  const [modalOpen, setModalOpen] = useState(false);
+  const [confettiSeed, setConfettiSeed] = useState(null);
+  const [lastNewId, setLastNewId] = useState(null);
+  const [counterFlash, setCounterFlash] = useState(false);
+
+  /* Save likes locally so the heart toggle persists per device. */
+  useEffect(() => {try {localStorage.setItem(LIKES_KEY, JSON.stringify(likes));} catch (e) {}}, [likes]);
+
+  /* Realtime listener. New messages appear instantly for every visitor. */
+  useEffect(() => {
+    if (!fbMessagesRef) {setLoading(false);return;}
+    const handler = (snapshot) => {
+      const data = snapshot.val() || {};
+      const list = Object.entries(data).map(([id, m]) => ({ id, ...m }));
+      list.sort((a, b) => (b.ts || 0) - (a.ts || 0));
+      setPosts(list);
+      setLoading(false);
+    };
+    fbMessagesRef.on("value", handler);
+    return () => fbMessagesRef.off("value", handler);
+  }, []);
+
+  const rotations = useMemo(() => {
+    const out = {};
+    posts.forEach((p) => {out[p.id] = randomRotation();});
+    return out;
+  }, [posts.map((p) => p.id).join(",")]);
+
+  const filtered = useMemo(() => {
+    if (filter === "destacados") return [...posts].sort((a, b) => b.likes + (likes[b.id] ? 1 : 0) - (a.likes + (likes[a.id] ? 1 : 0)));
+    if (filter === "recientes") return [...posts].sort((a, b) => (b.ts || 0) - (a.ts || 0));
+    return posts;
+  }, [posts, filter, likes]);
+
+  const totalLikes = posts.reduce((sum, p) => sum + (p.likes || 0), 0);
+  const uniqueTeams = new Set(posts.map((p) => p.dept).filter(Boolean)).size;
+
+  function addPost(p) {
+    if (fbMessagesRef) {
+      const ref = fbMessagesRef.push();
+      const payload = {
+        msg: p.msg, name: p.name, role: p.role, dept: p.dept || "",
+        color: p.color, style: p.style,
+        ts: firebase.database.ServerValue.TIMESTAMP,
+        likes: 0
+      };
+      ref.set(payload).catch((err) => {
+        console.error("[Endalia RR. HH.] No se pudo guardar el mensaje:", err);
+        alert("No hemos podido publicar tu mensaje. Inténtalo de nuevo en unos segundos.");
+      });
+      setLastNewId(ref.key);
+    } else {
+      /* Modo demo (sin Firebase): se mantiene sólo en este navegador. */
+      const newPost = { ...p, id: "u" + Date.now(), ts: Date.now(), likes: 0 };
+      setPosts((prev) => [newPost, ...prev]);
+      setLastNewId(newPost.id);
+    }
+    setModalOpen(false);
+    setConfettiSeed(Date.now());
+    setCounterFlash(true);
+    setTimeout(() => setCounterFlash(false), 700);
+    setTimeout(() => {
+      document.getElementById("endalia-wall-anchor")?.scrollIntoView({ behavior: "smooth", block: "start" });
+    }, 250);
+  }
+
+  function toggleLike(id) {
+    const wasLiked = !!likes[id];
+    setLikes((prev) => ({ ...prev, [id]: !wasLiked }));
+    if (fbDb) {
+      const ref = fbDb.ref(`messages/${id}/likes`);
+      ref.transaction((current) => (current || 0) + (wasLiked ? -1 : 1)).catch((err) => {
+        console.warn("[Endalia RR. HH.] No se pudo actualizar el contador de likes:", err);
+      });
+    } else {
+      setPosts((prev) => prev.map((p) => p.id === id ? { ...p, likes: (p.likes || 0) + (wasLiked ? -1 : 1) } : p));
+    }
+  }
+
+  return (
+    <div className="stage">
+      <Hero onOpen={() => setModalOpen(true)} count={posts.length} totalLikes={totalLikes} uniqueTeams={uniqueTeams} counterFlash={counterFlash} />
+      {!FIREBASE_CONFIGURED && <SetupBanner />}
+      <div id="endalia-wall-anchor"></div>
+      <section className="wall-section">
+        <div className="wall-header">
+          <h2 className="wall-title">
+            Mensajes que <span className="accent">no caben</span> en un email.
+          </h2>
+          <div className="wall-meta">
+            <div className="filter-group" role="tablist">
+              {[
+              { key: "recientes", label: "Recientes" },
+              { key: "destacados", label: "Destacados" },
+              { key: "todos", label: "Todos" }].
+              map((f) =>
+              <button key={f.key} className={"filter-chip" + (filter === f.key ? " active" : "")}
+              onClick={() => setFilter(f.key)}>{f.label}</button>
+              )}
+            </div>
+          </div>
+        </div>
+
+        {loading ?
+        <div className="wall-loading">Cargando mensajes…</div> :
+        posts.length === 0 ?
+        <div className="wall-empty-hero">
+            <div className="big">✍️</div>
+            <h3>Sé la primera persona en dejar un mensaje.</h3>
+            <p>El muro está esperando. Tu mensaje aparecerá al instante para el resto del equipo.</p>
+            <button className="btn btn-primary" onClick={() => setModalOpen(true)}>Escribir el primer mensaje</button>
+          </div> :
+
+        <div className="wall">
+            <button className="post-add" onClick={() => setModalOpen(true)}>
+              <span className="plus">+</span>
+              <span>Añade tu mensaje</span>
+              <span style={{ fontWeight: 400, fontSize: 13, opacity: 0.85 }}>Tarda menos de un minuto</span>
+            </button>
+            {filtered.map((p) =>
+          <Post key={p.id} post={p} rot={rotations[p.id]}
+          isNew={p.id === lastNewId} liked={!!likes[p.id]}
+          onLike={() => toggleLike(p.id)} />
+          )}
+          </div>
+        }
+      </section>
+
+      {modalOpen && <MessageModal onClose={() => setModalOpen(false)} onSubmit={addPost} />}
+      {confettiSeed && <Confetti key={confettiSeed} onDone={() => setConfettiSeed(null)} />}
+    </div>);
+
+}
+
+function SetupBanner() {
+  return (
+    <div className="setup-banner">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+        <circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line>
+      </svg>
+      <div>
+        <b>Modo demo:</b> los mensajes que se publiquen ahora sólo se verán en este navegador.
+        Para que se compartan entre todos los visitantes, pega tu config de Firebase en la constante <code>FIREBASE_CONFIG</code> dentro del archivo HTML (instrucciones paso a paso en el comentario justo encima).
+      </div>
+    </div>);
+
+}
+
+/* =================== HERO =================== */
+function Hero({ onOpen, count, totalLikes, uniqueTeams, counterFlash }) {
+  return (
+    <section className="hero">
+      <div>
+        <div className="hero-eyebrow">DÍA INTERNACIONAL DE LOS RECURSOS HUMANOS · 20 DE MAYO</div>
+        <h1 className="hero-title">
+          Carta a <span className="accent">RRHH</span>: lo que <span className="hand">nunca</span> les dijiste.
+        </h1>
+        <p className="hero-sub">
+          ¿Cuándo fue la última vez que alguien te dio las gracias? RRHH es ese departamento que siempre está cuando lo necesitas, pero al que pocas veces escribimos para decir <em>gracias</em>.
+        </p>
+        <p className="hero-sub" style={{ marginTop: 0 }}>
+          En Endalia sabemos que detrás de cada nómina correcta, de cada proceso de selección y de cada plan de formación, hay personas cuidando de personas. A menudo, su trabajo es invisible… hasta que alguien les da las gracias.
+        </p>
+        <div className="hero-cta-row">
+          <button className="btn btn-primary" onClick={onOpen}>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round"><path d="M12 20h9" /><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4 12.5-12.5z" /></svg>
+            Escribir mi carta
+          </button>
+          <a className="btn btn-ghost" href="#endalia-wall-anchor">
+            Leer las cartas
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round"><line x1="5" y1="12" x2="19" y2="12" /><polyline points="12 5 19 12 12 19" /></svg>
+          </a>
+        </div>
+        <div className="hero-stats">
+          <div className="stat">
+            <span className={"stat-num" + (counterFlash ? " counter-flash" : "")}>{count}</span>
+            <span className="stat-label">cartas en el muro</span>
+          </div>
+          <div className="stat-divider"></div>
+          <div className="stat">
+            <span className="stat-num">{totalLikes}</span>
+            <span className="stat-label">corazones repartidos</span>
+          </div>
+          <div className="stat-divider"></div>
+          <div className="stat">
+            <span className="stat-num">{uniqueTeams || 0}</span>
+            <span className="stat-label">equipos participando</span>
+          </div>
+        </div>
+      </div>
+      <div className="hero-art" aria-hidden>
+        <Medallion />
+        <div className="deco-card green deco-1">
+          <div>"Gracias por hacer fácil lo imposible."</div>
+          <div className="sig">— Carla, Ventas</div>
+        </div>
+        <div className="deco-card white deco-2">
+          <div>"Os tenemos en mente todo el año, pero hoy en alto."</div>
+          <div className="sig">— Dirección</div>
+        </div>
+        <div className="deco-card yellow deco-3">
+          <div>"Nómina puntual, cabeza tranquila. Mil gracias."</div>
+          <div className="sig">— Jorge, Eng</div>
+        </div>
+        <div className="deco-card fucsia deco-4">
+          <div>"A las que escuchan antes de responder."</div>
+          <div className="sig">— Equipo Diseño</div>
+        </div>
+        <Sparkle className="spark s1" />
+        <Sparkle className="spark s2" type="heart" />
+        <Sparkle className="spark s3" type="dot" />
+      </div>
+    </section>);
+
+}
+
+function Medallion() {
+  return (
+    <div className="hero-medallion">
+      <div className="medallion-ring"></div>
+      <div className="hero-medallion-inner">
+        <div className="medallion-label">DÍA DE LOS RRHH</div>
+        <div className="medallion-day">20</div>
+        <div className="medallion-month">Mayo</div>
+        <div className="medallion-label">2026 · endalia</div>
+      </div>
+    </div>);
+
+}
+
+function Sparkle({ className, type = "star" }) {
+  if (type === "heart")
+  return <svg className={className} viewBox="0 0 24 24" fill="currentColor"><path d="M12 21s-7-4.35-7-10a4.5 4.5 0 0 1 8-2.84A4.5 4.5 0 0 1 21 11c0 5.65-7 10-9 10z" /></svg>;
+  if (type === "dot")
+  return <svg className={className} viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="6" /></svg>;
+  return <svg className={className} viewBox="0 0 24 24" fill="currentColor"><path d="M12 2 14 9l7 1.5-5.5 4.5L17 22l-5-3-5 3 1.5-7L3 10.5 10 9z" /></svg>;
+}
+
+/* =================== POST =================== */
+function Post({ post, rot, isNew, liked, onLike }) {
+  return (
+    <article className={`post ${post.color}${isNew ? " is-new" : ""}`} style={{ "--rot": rot }}>
+      <div className="quote-mark">"</div>
+      <div className={"post-msg" + (post.style === "hand" ? " handwritten" : "")}>{post.msg}</div>
+      <div className="post-footer">
+        <div className="post-author">
+          <div className="avatar">{initials(post.name)}</div>
+          <div className="post-author-info">
+            <div className="post-name">{post.name || "Anónimo"}</div>
+            <div className="post-role">{[post.role, post.dept].filter(Boolean).join(" · ") || relTime(post.ts)}</div>
+          </div>
+        </div>
+        <button className={"like-btn" + (liked ? " liked" : "")} onClick={onLike} aria-label="Me gusta">
+          <span className="heart">{liked ? "♥" : "♡"}</span>
+          <span>{(post.likes || 0) + (liked ? 1 : 0)}</span>
+        </button>
+      </div>
+    </article>);
+
+}
+
+/* =================== MODAL =================== */
+function MessageModal({ onClose, onSubmit }) {
+  const [msg, setMsg] = useState("");
+  const [name, setName] = useState("");
+  const [dept, setDept] = useState("");
+  const [role, setRole] = useState("Empleado/a");
+  const [color, setColor] = useState("c-green");
+  const [style, setStyle] = useState("type");
+  const [anon, setAnon] = useState(false);
+
+  const inputRef = useRef(null);
+  useEffect(() => {inputRef.current?.focus();}, []);
+
+  useEffect(() => {
+    const onKey = (e) => {if (e.key === "Escape") onClose();};
+    document.addEventListener("keydown", onKey);
+    return () => document.removeEventListener("keydown", onKey);
+  }, [onClose]);
+
+  const max = 240;
+  const valid = msg.trim().length > 0 && msg.length <= max;
+
+  function handleSubmit(e) {
+    e?.preventDefault();
+    if (!valid) return;
+    onSubmit({
+      msg: msg.trim(),
+      name: anon ? "Anónimo" : name.trim() || "Anónimo",
+      role,
+      dept: anon ? "" : dept.trim(),
+      color,
+      style
+    });
+  }
+
+  return (
+    <div className="modal-backdrop" onClick={(e) => {if (e.target.classList.contains("modal-backdrop")) onClose();}}>
+      <form className="modal" onSubmit={handleSubmit}>
+        <button type="button" className="modal-close" onClick={onClose} aria-label="Cerrar">×</button>
+        <div className="modal-eyebrow">Deja tu mensaje</div>
+        <h2 className="modal-title">¿Qué quieres decirles hoy?</h2>
+        <p className="modal-sub">A todo el equipo de RR. HH., a una persona concreta, o a quien tú quieras. Lo verán todos los compañeros y compañeras de Endalia.</p>
+
+        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+          <label className="field-label" style={{ margin: 0 }}>Tu mensaje</label>
+          <div className="toggle-style" aria-label="Estilo de escritura">
+            <button type="button" className={style === "type" ? "active" : ""} onClick={() => setStyle("type")}>Imprenta</button>
+            <button type="button" className={style === "hand" ? "active" : ""} onClick={() => setStyle("hand")}>A mano</button>
+          </div>
+        </div>
+        <textarea ref={inputRef}
+        className={"field-textarea" + (style === "hand" ? " cursive" : "")}
+        value={msg}
+        onChange={(e) => setMsg(e.target.value.slice(0, max))}
+        placeholder={style === "hand" ? "Gracias por…" : "Escribe aquí tu mensaje de gratitud, una anécdota o una dedicatoria."}
+        maxLength={max} />
+        <div style={{ display: "flex", justifyContent: "space-between", fontSize: 12, color: "#5A6679", marginTop: 6 }}>
+          <span>Mantén el tono cálido y respetuoso.</span>
+          <span style={{ fontVariantNumeric: "tabular-nums" }}>{msg.length} / {max}</span>
+        </div>
+
+        <label className="field-label">¿Quién lo escribe?</label>
+        <div className="field-row">
+          <input className="field-input" value={name} onChange={(e) => setName(e.target.value)} placeholder="Tu nombre" disabled={anon} />
+          <input className="field-input" value={dept} onChange={(e) => setDept(e.target.value)} placeholder="Equipo o departamento" disabled={anon} />
+        </div>
+        <label style={{ display: "flex", alignItems: "center", gap: 8, marginTop: 10, fontSize: 13, color: "#5A6679", cursor: "pointer" }}>
+          <input type="checkbox" checked={anon} onChange={(e) => setAnon(e.target.checked)} />
+          Quiero firmar como anónimo
+        </label>
+
+        <label className="field-label">Tu rol</label>
+        <div className="roles">
+          {ROLES.map((r) =>
+          <button key={r} type="button" className={"role-chip" + (role === r ? " active" : "")} onClick={() => setRole(r)}>{r}</button>
+          )}
+        </div>
+
+        <label className="field-label">Color de la tarjeta</label>
+        <div className="colors">
+          {COLORS.map((c) =>
+          <button key={c} type="button" className={"color-swatch " + c + (color === c ? " active" : "")} onClick={() => setColor(c)} aria-label={"Color " + c} />
+          )}
+        </div>
+
+        <div className="modal-preview" style={{
+          background: bgFor(color),
+          color: color === "c-fucsia" ? "#fff" : "#0D1B3D"
+        }}>
+          <div className="modal-preview-label" style={{ color: color === "c-fucsia" ? "rgba(255,255,255,0.7)" : "#5A6679" }}>Vista previa</div>
+          <div style={{
+            fontFamily: style === "hand" ? "'Caveat', cursive" : "Roboto, sans-serif",
+            fontSize: style === "hand" ? 22 : 15,
+            lineHeight: style === "hand" ? 1.15 : 1.5,
+            fontWeight: style === "hand" ? 600 : 400,
+            whiteSpace: "pre-wrap"
+          }}>
+            {msg || (style === "hand" ? "Aquí aparecerá tu mensaje a mano…" : "Aquí aparecerá tu mensaje.")}
+          </div>
+          <div style={{ fontSize: 12, marginTop: 10, opacity: 0.7, fontWeight: 600 }}>
+            — {anon ? "Anónimo" : name || "Tu nombre"}{!anon && dept ? ` · ${dept}` : ""}
+          </div>
+        </div>
+
+        <div className="modal-actions">
+          <button type="button" className="btn-modal-cancel" onClick={onClose}>Cancelar</button>
+          <button type="submit" className="btn-modal-submit" disabled={!valid}>Publicar en el muro</button>
+        </div>
+      </form>
+    </div>);
+
+}
+
+/* =================== CONFETTI =================== */
+function Confetti({ onDone }) {
+  const pieces = useMemo(() => {
+    const palette = ["#87E697", "#FFCC00", "#FF0066", "#FFFFFF", "#6E91FC"];
+    return Array.from({ length: 90 }, (_, i) => ({
+      id: i,
+      left: Math.random() * 100,
+      tx: Math.random() * 200 - 100 + "px",
+      r: Math.random() * 1080 - 360 + "deg",
+      dur: 1.8 + Math.random() * 1.6 + "s",
+      d: Math.random() * 0.4 + "s",
+      bg: palette[i % palette.length],
+      w: 6 + Math.random() * 8,
+      h: 8 + Math.random() * 10,
+      br: Math.random() > 0.5 ? "2px" : "50%"
+    }));
+  }, []);
+  useEffect(() => {
+    const t = setTimeout(onDone, 3200);
+    return () => clearTimeout(t);
+  }, [onDone]);
+  return (
+    <div className="confetti" aria-hidden>
+      {pieces.map((p) =>
+      <span key={p.id} style={{
+        left: p.left + "%",
+        "--tx": p.tx, "--r": p.r, "--dur": p.dur, "--d": p.d,
+        background: p.bg, width: p.w, height: p.h, borderRadius: p.br
+      }} />
+      )}
+    </div>);
+
+}
+
+ReactDOM.createRoot(document.getElementById("endalia-rrhh-app")).render(<App />);
+</script>
+<!-- ============================================================
+     FIN BLOQUE EMBEBIBLE
+     ============================================================ -->
+
+
+
+</body></html>
